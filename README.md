@@ -13,9 +13,9 @@ This project is a demo of python web scrapping along with html.
 
 **Folder overview:**
 
-Code : This folder contains python script for web scrapping and creating html files
+Code : This folder contains python script for web scrapping and creating html files.
 Html templates : This folder contains index/welcome page along with generic template on which each generic page is built.
-Html_files : this folder contains all the final html files generated to host the site
+Html_files : this folder contains all the final html files generated to host the site.
 Scrapped_data_files : this folder contains data which is scrapped, each file represents single genre of a movie.
 
 **Background:**
