@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : The Shawshank Redemption
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 142
+      </td>
+      <td>
+       IMDB rating : 9.3
+      </td>
+      <td>
+       Votes : 2812966
+      </td>
+      <td>
+       Revenue USD : 28.34
+      </td>
+      <td>
+       Director : Frank Darabont
+      </td>
+      <td>
+       Cast : Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler
+      </td>
+      <td>
+       Summary : Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Godfather
+      </td>
+      <td>
+       Year : 1972
+      </td>
+      <td>
+       Run time : 175
+      </td>
+      <td>
+       IMDB rating : 9.2
+      </td>
+      <td>
+       Votes : 1960432
+      </td>
+      <td>
+       Revenue USD : 134.97
+      </td>
+      <td>
+       Director : Francis Ford Coppola
+      </td>
+      <td>
+       Cast : Marlon Brando, Al Pacino, James Caan, Diane Keaton
+      </td>
+      <td>
+       Summary : Don Vito Corleone, head of a mafia family, decides to hand over his empire to his youngest son Michael. However, his decision unintentionally puts the lives of his loved ones in grave danger.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Chaos Class
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 87
+      </td>
+      <td>
+       IMDB rating : 9.2
+      </td>
+      <td>
+       Votes : 42294
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ertem Egilmez
+      </td>
+      <td>
+       Cast : Kemal Sunal, Münir Özkul, Halit Akçatepe, Tarik Akan
+      </td>
+      <td>
+       Summary : Lazy, uneducated students share a very close bond. They live together in the dormitory, where they plan their latest pranks. When a new headmaster arrives, the students naturally try to overthrow him. A comic war of nitwits follows.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Dark Knight
+      </td>
+      <td>
+       Year : 2008
+      </td>
+      <td>
+       Run time : 152
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 2794638
+      </td>
+      <td>
+       Revenue USD : 534.86
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+      </td>
+      <td>
+       Summary : When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Schindler's List
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 195
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 1414098
+      </td>
+      <td>
+       Revenue USD : 96.9
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall
+      </td>
+      <td>
+       Summary : In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lord of the Rings: The Return of the King
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 201
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 1926112
+      </td>
+      <td>
+       Revenue USD : 377.85
+      </td>
+      <td>
+       Director : Peter Jackson
+      </td>
+      <td>
+       Cast : Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom
+      </td>
+      <td>
+       Summary : Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 12 Angry Men
+      </td>
+      <td>
+       Year : 1957
+      </td>
+      <td>
+       Run time : 96
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 837812
+      </td>
+      <td>
+       Revenue USD : 4.36
+      </td>
+      <td>
+       Director : Sidney Lumet
+      </td>
+      <td>
+       Cast : Henry Fonda, Lee J. Cobb, Martin Balsam, John Fiedler
+      </td>
+      <td>
+       Summary : The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Godfather Part II
+      </td>
+      <td>
+       Year : 1974
+      </td>
+      <td>
+       Run time : 202
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 1331095
+      </td>
+      <td>
+       Revenue USD : 57.3
+      </td>
+      <td>
+       Director : Francis Ford Coppola
+      </td>
+      <td>
+       Cast : Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton
+      </td>
+      <td>
+       Summary : The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Pulp Fiction
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 154
+      </td>
+      <td>
+       IMDB rating : 8.9
+      </td>
+      <td>
+       Votes : 2157265
+      </td>
+      <td>
+       Revenue USD : 107.93
+      </td>
+      <td>
+       Director : Quentin Tarantino
+      </td>
+      <td>
+       Cast : John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis
+      </td>
+      <td>
+       Summary : The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Fight Club
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 139
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 2247689
+      </td>
+      <td>
+       Revenue USD : 37.03
+      </td>
+      <td>
+       Director : David Fincher
+      </td>
+      <td>
+       Cast : Brad Pitt, Edward Norton, Meat Loaf, Zach Grenier
+      </td>
+      <td>
+       Summary : An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lord of the Rings: The Fellowship of the Ring
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 178
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 1953681
+      </td>
+      <td>
+       Revenue USD : 315.54
+      </td>
+      <td>
+       Director : Peter Jackson
+      </td>
+      <td>
+       Cast : Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean
+      </td>
+      <td>
+       Summary : A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Forrest Gump
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 142
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 2190290
+      </td>
+      <td>
+       Revenue USD : 330.25
+      </td>
+      <td>
+       Director : Robert Zemeckis
+      </td>
+      <td>
+       Cast : Tom Hanks, Robin Wright, Gary Sinise, Sally Field
+      </td>
+      <td>
+       Summary : The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lord of the Rings: The Two Towers
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 179
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 1737331
+      </td>
+      <td>
+       Revenue USD : 342.55
+      </td>
+      <td>
+       Director : Peter Jackson
+      </td>
+      <td>
+       Cast : Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom
+      </td>
+      <td>
+       Summary : While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Jai Bhim
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 164
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 211607
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : T.J. Gnanavel
+      </td>
+      <td>
+       Cast : Suriya, Lijo Mol Jose, Manikandan K., Rajisha Vijayan
+      </td>
+      <td>
+       Summary : When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 777 Charlie
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 164
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 37257
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Kiranraj K
+      </td>
+      <td>
+       Cast : Rakshit Shetty, Charlie, Sangeetha Sringeri, Raj B. Shetty
+      </td>
+      <td>
+       Summary : Dharma is stuck in a rut with his negative and lonely lifestyle and spends each day in the comfort of his loneliness. A pup named Charlie enters his life and gives him a new perspective towards it.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Interstellar
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 169
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 2004599
+      </td>
+      <td>
+       Revenue USD : 188.02
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Matthew McConaughey, Anne Hathaway, Jessica Chastain, Mackenzie Foy
+      </td>
+      <td>
+       Summary : When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Goodfellas
+      </td>
+      <td>
+       Year : 1990
+      </td>
+      <td>
+       Run time : 145
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1221601
+      </td>
+      <td>
+       Revenue USD : 46.84
+      </td>
+      <td>
+       Director : Martin Scorsese
+      </td>
+      <td>
+       Cast : Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco
+      </td>
+      <td>
+       Summary : The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : One Flew Over the Cuckoo's Nest
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1047889
+      </td>
+      <td>
+       Revenue USD : 112.0
+      </td>
+      <td>
+       Director : Milos Forman
+      </td>
+      <td>
+       Cast : Jack Nicholson, Louise Fletcher, Michael Berryman, Peter Brocco
+      </td>
+      <td>
+       Summary : In the Fall of 1963, a Korean War veteran and criminal pleads insanity and is admitted to a mental institution, where he rallies up the scared patients against the tyrannical nurse.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Soorarai Pottru
+      </td>
+      <td>
+       Year : 2020
+      </td>
+      <td>
+       Run time : 153
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 121374
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Sudha Kongara
+      </td>
+      <td>
+       Cast : Suriya, Paresh Rawal, Aparna Balamurali, Urvashi
+      </td>
+      <td>
+       Summary : Nedumaaran Rajangam "Maara" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Rocketry: The Nambi Effect
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 157
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 55859
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Madhavan
+      </td>
+      <td>
+       Cast : Madhavan, Simran, Rajit Kapoor, Ravi Raghavendra
+      </td>
+      <td>
+       Summary : Based on the life of Indian Space Research Organization scientist Nambi Narayanan, who was framed for being a spy and arrested in 1994. Though free, he continues to fight for justice against the officials who falsely implicated him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Silence of the Lambs
+      </td>
+      <td>
+       Year : 1991
+      </td>
+      <td>
+       Run time : 118
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1503091
+      </td>
+      <td>
+       Revenue USD : 130.74
+      </td>
+      <td>
+       Director : Jonathan Demme
+      </td>
+      <td>
+       Cast : Jodie Foster, Anthony Hopkins, Scott Glenn, Ted Levine
+      </td>
+      <td>
+       Summary : A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Se7en
+      </td>
+      <td>
+       Year : 1995
+      </td>
+      <td>
+       Run time : 127
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1743768
+      </td>
+      <td>
+       Revenue USD : 100.13
+      </td>
+      <td>
+       Director : David Fincher
+      </td>
+      <td>
+       Cast : Morgan Freeman, Brad Pitt, Kevin Spacey, Andrew Kevin Walker
+      </td>
+      <td>
+       Summary : Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Green Mile
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 189
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1368006
+      </td>
+      <td>
+       Revenue USD : 136.8
+      </td>
+      <td>
+       Director : Frank Darabont
+      </td>
+      <td>
+       Cast : Tom Hanks, Michael Clarke Duncan, David Morse, Bonnie Hunt
+      </td>
+      <td>
+       Summary : A tale set on death row in a Southern jail, where gentle giant John possesses the mysterious power to heal people's ailments. When the lead guard, Paul, recognizes John's gift, he tries to help stave off the condemned man's execution.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Saving Private Ryan
+      </td>
+      <td>
+       Year : 1998
+      </td>
+      <td>
+       Run time : 169
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1457188
+      </td>
+      <td>
+       Revenue USD : 216.54
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Tom Hanks, Matt Damon, Tom Sizemore, Edward Burns
+      </td>
+      <td>
+       Summary : Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : City of God
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 784652
+      </td>
+      <td>
+       Revenue USD : 7.56
+      </td>
+      <td>
+       Director : Fernando Meirelles, Kátia Lund
+      </td>
+      <td>
+       Cast : Alexandre Rodrigues, Leandro Firmino, Matheus Nachtergaele, Phellipe Haagensen
+      </td>
+      <td>
+       Summary : In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Life Is Beautiful
+      </td>
+      <td>
+       Year : 1997
+      </td>
+      <td>
+       Run time : 116
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 725846
+      </td>
+      <td>
+       Revenue USD : 57.6
+      </td>
+      <td>
+       Director : Roberto Benigni
+      </td>
+      <td>
+       Cast : Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini, Giustino Durano
+      </td>
+      <td>
+       Summary : When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : It's a Wonderful Life
+      </td>
+      <td>
+       Year : 1946
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 481077
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Frank Capra
+      </td>
+      <td>
+       Cast : James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell
+      </td>
+      <td>
+       Summary : An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Seven Samurai
+      </td>
+      <td>
+       Year : 1954
+      </td>
+      <td>
+       Run time : 207
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 359475
+      </td>
+      <td>
+       Revenue USD : 0.27
+      </td>
+      <td>
+       Director : Akira Kurosawa
+      </td>
+      <td>
+       Cast : Toshirô Mifune, Takashi Shimura, Keiko Tsushima, Yukiko Shimazaki
+      </td>
+      <td>
+       Summary : Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Harakiri
+      </td>
+      <td>
+       Year : 1962
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 64573
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Masaki Kobayashi
+      </td>
+      <td>
+       Cast : Tatsuya Nakadai, Akira Ishihama, Shima Iwashita, Tetsurô Tanba
+      </td>
+      <td>
+       Summary : When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Kashmir Files
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 170
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 571915
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Vivek Agnihotri
+      </td>
+      <td>
+       Cast : Mithun Chakraborty, Anupam Kher, Darshan Kumaar, Pallavi Joshi
+      </td>
+      <td>
+       Summary : A heart-wrenching tale that captures the pain, suffering, and struggle of the Kashmiri Pandit community in 1990 and leads Krishna, a young college student, to set out on a quest to uncover the truth.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sita Ramam
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 163
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 63756
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Hanu Raghavapudi
+      </td>
+      <td>
+       Cast : Dulquer Salmaan, Mrunal Thakur, Rashmika Mandanna, Sumanth
+      </td>
+      <td>
+       Summary : An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir,After he gets caught in jail, he sends a letter to Sita which won't reach her.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Oppenheimer
+      </td>
+      <td>
+       Year : 2023
+      </td>
+      <td>
+       Run time : 180
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 468997
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.
+      </td>
+      <td>
+       Summary : The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Gladiator
+      </td>
+      <td>
+       Year : 2000
+      </td>
+      <td>
+       Run time : 155
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1571308
+      </td>
+      <td>
+       Revenue USD : 187.71
+      </td>
+      <td>
+       Director : Ridley Scott
+      </td>
+      <td>
+       Cast : Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed
+      </td>
+      <td>
+       Summary : A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Departed
+      </td>
+      <td>
+       Year : 2006
+      </td>
+      <td>
+       Run time : 151
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1386883
+      </td>
+      <td>
+       Revenue USD : 132.38
+      </td>
+      <td>
+       Director : Martin Scorsese
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg
+      </td>
+      <td>
+       Summary : An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Parasite
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 132
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 897401
+      </td>
+      <td>
+       Revenue USD : 53.37
+      </td>
+      <td>
+       Director : Bong Joon Ho
+      </td>
+      <td>
+       Cast : Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-sik
+      </td>
+      <td>
+       Summary : Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Prestige
+      </td>
+      <td>
+       Year : 2006
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1403434
+      </td>
+      <td>
+       Revenue USD : 53.09
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine
+      </td>
+      <td>
+       Summary : After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Whiplash
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 106
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 939702
+      </td>
+      <td>
+       Revenue USD : 13.09
+      </td>
+      <td>
+       Director : Damien Chazelle
+      </td>
+      <td>
+       Cast : Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser
+      </td>
+      <td>
+       Summary : A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Django Unchained
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 165
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1644040
+      </td>
+      <td>
+       Revenue USD : 162.81
+      </td>
+      <td>
+       Director : Quentin Tarantino
+      </td>
+      <td>
+       Cast : Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington
+      </td>
+      <td>
+       Summary : With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Léon: The Professional
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1214645
+      </td>
+      <td>
+       Revenue USD : 19.5
+      </td>
+      <td>
+       Director : Luc Besson
+      </td>
+      <td>
+       Cast : Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello
+      </td>
+      <td>
+       Summary : 12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lion King
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 88
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1111483
+      </td>
+      <td>
+       Revenue USD : 422.78
+      </td>
+      <td>
+       Director : Roger Allers, Rob Minkoff
+      </td>
+      <td>
+       Cast : Matthew Broderick, Jeremy Irons, James Earl Jones, Whoopi Goldberg
+      </td>
+      <td>
+       Summary : Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Usual Suspects
+      </td>
+      <td>
+       Year : 1995
+      </td>
+      <td>
+       Run time : 106
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1123160
+      </td>
+      <td>
+       Revenue USD : 23.34
+      </td>
+      <td>
+       Director : Bryan Singer
+      </td>
+      <td>
+       Cast : Kevin Spacey, Gabriel Byrne, Chazz Palminteri, Stephen Baldwin
+      </td>
+      <td>
+       Summary : The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Intouchables
+      </td>
+      <td>
+       Year : 2011
+      </td>
+      <td>
+       Run time : 112
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 903001
+      </td>
+      <td>
+       Revenue USD : 13.18
+      </td>
+      <td>
+       Director : Olivier Nakache, Éric Toledano
+      </td>
+      <td>
+       Cast : François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot
+      </td>
+      <td>
+       Summary : After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : American History X
+      </td>
+      <td>
+       Year : 1998
+      </td>
+      <td>
+       Run time : 119
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1162952
+      </td>
+      <td>
+       Revenue USD : 6.72
+      </td>
+      <td>
+       Director : Tony Kaye
+      </td>
+      <td>
+       Cast : Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien
+      </td>
+      <td>
+       Summary : Living a life marked by violence, neo-Nazi Derek finally goes to prison after killing two black youths. Upon his release, Derek vows to change; he hopes to prevent his brother, Danny, who idolizes Derek, from following in his footsteps.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Pianist
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 150
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 883372
+      </td>
+      <td>
+       Revenue USD : 32.57
+      </td>
+      <td>
+       Director : Roman Polanski
+      </td>
+      <td>
+       Cast : Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox
+      </td>
+      <td>
+       Summary : A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Casablanca
+      </td>
+      <td>
+       Year : 1942
+      </td>
+      <td>
+       Run time : 102
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 594101
+      </td>
+      <td>
+       Revenue USD : 1.02
+      </td>
+      <td>
+       Director : Michael Curtiz
+      </td>
+      <td>
+       Cast : Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains
+      </td>
+      <td>
+       Summary : A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Grave of the Fireflies
+      </td>
+      <td>
+       Year : 1988
+      </td>
+      <td>
+       Run time : 89
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 297886
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Isao Takahata
+      </td>
+      <td>
+       Cast : Tsutomu Tatsumi, Ayano Shiraishi, Akemi Yamaguchi, Yoshiko Shinohara
+      </td>
+      <td>
+       Summary : A young boy and his little sister struggle to survive in Japan during World War II.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Cinema Paradiso
+      </td>
+      <td>
+       Year : 1988
+      </td>
+      <td>
+       Run time : 155
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 275347
+      </td>
+      <td>
+       Revenue USD : 11.99
+      </td>
+      <td>
+       Director : Giuseppe Tornatore
+      </td>
+      <td>
+       Cast : Philippe Noiret, Enzo Cannavale, Antonella Attili, Isa Danieli
+      </td>
+      <td>
+       Summary : A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Modern Times
+      </td>
+      <td>
+       Year : 1936
+      </td>
+      <td>
+       Run time : 87
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 253726
+      </td>
+      <td>
+       Revenue USD : 0.16
+      </td>
+      <td>
+       Director : Charles Chaplin
+      </td>
+      <td>
+       Cast : Charles Chaplin, Paulette Goddard, Henry Bergman, Tiny Sandford
+      </td>
+      <td>
+       Summary : The Tramp struggles to live in modern industrial society with the help of a young homeless woman.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : City Lights
+      </td>
+      <td>
+       Year : 1931
+      </td>
+      <td>
+       Run time : 87
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 192149
+      </td>
+      <td>
+       Revenue USD : 0.02
+      </td>
+      <td>
+       Director : Charles Chaplin
+      </td>
+      <td>
+       Cast : Charles Chaplin, Virginia Cherrill, Florence Lee, Harry Myers
+      </td>
+      <td>
+       Summary : With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 96
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 158
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 34696
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : C. Prem Kumar
+      </td>
+      <td>
+       Cast : Vijay Sethupathi, Adithya Bhaskar, Trisha Krishnan, Gouri Kishan
+      </td>
+      <td>
+       Summary : Two high school sweethearts meet at a reunion after 22 years and reminisce about their past.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

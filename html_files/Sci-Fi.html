@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : Inception
+      </td>
+      <td>
+       Year : 2010
+      </td>
+      <td>
+       Run time : 148
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 2480407
+      </td>
+      <td>
+       Revenue USD : 292.58
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Ken Watanabe
+      </td>
+      <td>
+       Summary : A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spider-Man: Across the Spider-Verse
+      </td>
+      <td>
+       Year : 2023
+      </td>
+      <td>
+       Run time : 140
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 282252
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Joaquim Dos Santos, Kemp Powers, Justin K. Thompson
+      </td>
+      <td>
+       Cast : Shameik Moore, Hailee Steinfeld, Brian Tyree Henry, Luna Lauren Velez
+      </td>
+      <td>
+       Summary : Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Interstellar
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 169
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 2004599
+      </td>
+      <td>
+       Revenue USD : 188.02
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Matthew McConaughey, Anne Hathaway, Jessica Chastain, Mackenzie Foy
+      </td>
+      <td>
+       Summary : When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Matrix
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 136
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1999957
+      </td>
+      <td>
+       Revenue USD : 171.48
+      </td>
+      <td>
+       Director : Lana Wachowski, Lilly Wachowski
+      </td>
+      <td>
+       Cast : Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+      </td>
+      <td>
+       Summary : When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Star Wars: Episode V - The Empire Strikes Back
+      </td>
+      <td>
+       Year : 1980
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1347971
+      </td>
+      <td>
+       Revenue USD : 290.48
+      </td>
+      <td>
+       Director : Irvin Kershner
+      </td>
+      <td>
+       Cast : Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams
+      </td>
+      <td>
+       Summary : After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Star Wars: Episode IV - A New Hope
+      </td>
+      <td>
+       Year : 1977
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1419263
+      </td>
+      <td>
+       Revenue USD : 322.74
+      </td>
+      <td>
+       Director : George Lucas
+      </td>
+      <td>
+       Cast : Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness
+      </td>
+      <td>
+       Summary : Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Terminator 2: Judgment Day
+      </td>
+      <td>
+       Year : 1991
+      </td>
+      <td>
+       Run time : 137
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1146769
+      </td>
+      <td>
+       Revenue USD : 204.84
+      </td>
+      <td>
+       Director : James Cameron
+      </td>
+      <td>
+       Cast : Arnold Schwarzenegger, Linda Hamilton, Edward Furlong, Robert Patrick
+      </td>
+      <td>
+       Summary : A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Alien
+      </td>
+      <td>
+       Year : 1979
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 924480
+      </td>
+      <td>
+       Revenue USD : 78.9
+      </td>
+      <td>
+       Director : Ridley Scott
+      </td>
+      <td>
+       Cast : Sigourney Weaver, Tom Skerritt, John Hurt, Veronica Cartwright
+      </td>
+      <td>
+       Summary : The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Prestige
+      </td>
+      <td>
+       Year : 2006
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1403434
+      </td>
+      <td>
+       Revenue USD : 53.09
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine
+      </td>
+      <td>
+       Summary : After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Back to the Future
+      </td>
+      <td>
+       Year : 1985
+      </td>
+      <td>
+       Run time : 116
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1270201
+      </td>
+      <td>
+       Revenue USD : 210.61
+      </td>
+      <td>
+       Director : Robert Zemeckis
+      </td>
+      <td>
+       Cast : Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
+      </td>
+      <td>
+       Summary : Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Avengers: Endgame
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 181
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1221940
+      </td>
+      <td>
+       Revenue USD : 858.37
+      </td>
+      <td>
+       Director : Anthony Russo, Joe Russo
+      </td>
+      <td>
+       Cast : Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+      </td>
+      <td>
+       Summary : After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Aliens
+      </td>
+      <td>
+       Year : 1986
+      </td>
+      <td>
+       Run time : 137
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 746294
+      </td>
+      <td>
+       Revenue USD : 85.16
+      </td>
+      <td>
+       Director : James Cameron
+      </td>
+      <td>
+       Cast : Sigourney Weaver, Michael Biehn, Carrie Henn, Paul Reiser
+      </td>
+      <td>
+       Summary : Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spider-Man: Into the Spider-Verse
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 636019
+      </td>
+      <td>
+       Revenue USD : 190.24
+      </td>
+      <td>
+       Director : Bob Persichetti, Peter Ramsey, Rodney Rothman
+      </td>
+      <td>
+       Cast : Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali
+      </td>
+      <td>
+       Summary : Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Avengers: Infinity War
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 149
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1162456
+      </td>
+      <td>
+       Revenue USD : 678.82
+      </td>
+      <td>
+       Director : Anthony Russo, Joe Russo
+      </td>
+      <td>
+       Cast : Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans
+      </td>
+      <td>
+       Summary : The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : WALL·E
+      </td>
+      <td>
+       Year : 2008
+      </td>
+      <td>
+       Run time : 98
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1169574
+      </td>
+      <td>
+       Revenue USD : 223.81
+      </td>
+      <td>
+       Director : Andrew Stanton
+      </td>
+      <td>
+       Cast : Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard
+      </td>
+      <td>
+       Summary : In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Eternal Sunshine of the Spotless Mind
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 108
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 1050737
+      </td>
+      <td>
+       Revenue USD : 34.4
+      </td>
+      <td>
+       Director : Michel Gondry
+      </td>
+      <td>
+       Cast : Jim Carrey, Kate Winslet, Tom Wilkinson, Gerry Robert Byrne
+      </td>
+      <td>
+       Summary : When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories for ever.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : A Clockwork Orange
+      </td>
+      <td>
+       Year : 1971
+      </td>
+      <td>
+       Run time : 136
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 863345
+      </td>
+      <td>
+       Revenue USD : 6.21
+      </td>
+      <td>
+       Director : Stanley Kubrick
+      </td>
+      <td>
+       Cast : Malcolm McDowell, Patrick Magee, Michael Bates, Warren Clarke
+      </td>
+      <td>
+       Summary : In the future, a sadistic gang leader is imprisoned and volunteers for a conduct-aversion experiment, but it doesn't go as planned.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 2001: A Space Odyssey
+      </td>
+      <td>
+       Year : 1968
+      </td>
+      <td>
+       Run time : 149
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 701764
+      </td>
+      <td>
+       Revenue USD : 56.95
+      </td>
+      <td>
+       Director : Stanley Kubrick
+      </td>
+      <td>
+       Cast : Keir Dullea, Gary Lockwood, William Sylvester, Daniel Richter
+      </td>
+      <td>
+       Summary : After uncovering a mysterious artifact buried beneath the Lunar surface, a spacecraft is sent to Jupiter to find its origins: a spacecraft manned by two men and the supercomputer HAL 9000.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Star Wars: Episode VI - Return of the Jedi
+      </td>
+      <td>
+       Year : 1983
+      </td>
+      <td>
+       Run time : 131
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 1097690
+      </td>
+      <td>
+       Revenue USD : 309.13
+      </td>
+      <td>
+       Director : Richard Marquand
+      </td>
+      <td>
+       Cast : Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams
+      </td>
+      <td>
+       Summary : After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the second Death Star, while Luke struggles to help Darth Vader back from the dark side.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Metropolis
+      </td>
+      <td>
+       Year : 1927
+      </td>
+      <td>
+       Run time : 153
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 181583
+      </td>
+      <td>
+       Revenue USD : 1.24
+      </td>
+      <td>
+       Director : Fritz Lang
+      </td>
+      <td>
+       Cast : Brigitte Helm, Alfred Abel, Gustav Fröhlich, Rudolf Klein-Rogge
+      </td>
+      <td>
+       Summary : In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Thing
+      </td>
+      <td>
+       Year : 1982
+      </td>
+      <td>
+       Run time : 109
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 451330
+      </td>
+      <td>
+       Revenue USD : 13.78
+      </td>
+      <td>
+       Director : John Carpenter
+      </td>
+      <td>
+       Cast : Kurt Russell, Wilford Brimley, Keith David, Richard Masur
+      </td>
+      <td>
+       Summary : A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spider-Man: No Way Home
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 148
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 838870
+      </td>
+      <td>
+       Revenue USD : 804.75
+      </td>
+      <td>
+       Director : Jon Watts
+      </td>
+      <td>
+       Cast : Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon
+      </td>
+      <td>
+       Summary : With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Jurassic Park
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 127
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1039477
+      </td>
+      <td>
+       Revenue USD : 402.45
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough
+      </td>
+      <td>
+       Summary : A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : V for Vendetta
+      </td>
+      <td>
+       Year : 2005
+      </td>
+      <td>
+       Run time : 132
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1158190
+      </td>
+      <td>
+       Revenue USD : 70.51
+      </td>
+      <td>
+       Director : James McTeigue
+      </td>
+      <td>
+       Cast : Hugo Weaving, Natalie Portman, Rupert Graves, Stephen Rea
+      </td>
+      <td>
+       Summary : In a future British dystopian society, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow the tyrannical government - with the help of a young woman.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Mad Max: Fury Road
+      </td>
+      <td>
+       Year : 2015
+      </td>
+      <td>
+       Run time : 120
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 1053509
+      </td>
+      <td>
+       Revenue USD : 154.06
+      </td>
+      <td>
+       Director : George Miller
+      </td>
+      <td>
+       Cast : Tom Hardy, Charlize Theron, Nicholas Hoult, Zoë Kravitz
+      </td>
+      <td>
+       Summary : In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper and a drifter named Max.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Blade Runner
+      </td>
+      <td>
+       Year : 1982
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 803795
+      </td>
+      <td>
+       Revenue USD : 32.87
+      </td>
+      <td>
+       Director : Ridley Scott
+      </td>
+      <td>
+       Cast : Harrison Ford, Rutger Hauer, Sean Young, Edward James Olmos
+      </td>
+      <td>
+       Summary : A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Terminator
+      </td>
+      <td>
+       Year : 1984
+      </td>
+      <td>
+       Run time : 107
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 903791
+      </td>
+      <td>
+       Revenue USD : 38.4
+      </td>
+      <td>
+       Director : James Cameron
+      </td>
+      <td>
+       Cast : Arnold Schwarzenegger, Linda Hamilton, Michael Biehn, Paul Winfield
+      </td>
+      <td>
+       Summary : A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Logan
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 137
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 807633
+      </td>
+      <td>
+       Revenue USD : 226.28
+      </td>
+      <td>
+       Director : James Mangold
+      </td>
+      <td>
+       Cast : Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook
+      </td>
+      <td>
+       Summary : In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Stalker
+      </td>
+      <td>
+       Year : 1979
+      </td>
+      <td>
+       Run time : 162
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 141085
+      </td>
+      <td>
+       Revenue USD : 0.23
+      </td>
+      <td>
+       Director : Andrei Tarkovsky
+      </td>
+      <td>
+       Cast : Alisa Freyndlikh, Aleksandr Kaydanovskiy, Anatoliy Solonitsyn, Nikolay Grinko
+      </td>
+      <td>
+       Summary : A guide leads two men through an area known as the Zone to find a room that grants wishes.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Iron Giant
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 86
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 217735
+      </td>
+      <td>
+       Revenue USD : 23.16
+      </td>
+      <td>
+       Director : Brad Bird
+      </td>
+      <td>
+       Cast : Eli Marienthal, Harry Connick Jr., Jennifer Aniston, Vin Diesel
+      </td>
+      <td>
+       Summary : A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Neon Genesis Evangelion: The End of Evangelion
+      </td>
+      <td>
+       Year : 1997
+      </td>
+      <td>
+       Run time : 87
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 61088
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Hideaki Anno, Kazuya Tsurumaki
+      </td>
+      <td>
+       Cast : Megumi Ogata, Megumi Hayashibara, Yûko Miyamura, Kotono Mitsuishi
+      </td>
+      <td>
+       Summary : Concurrent theatrical ending of the TV series Neon Genesis Evangelion (1995).
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : PK
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 153
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 196584
+      </td>
+      <td>
+       Revenue USD : 10.62
+      </td>
+      <td>
+       Director : Rajkumar Hirani
+      </td>
+      <td>
+       Cast : Aamir Khan, Anushka Sharma, Sanjay Dutt, Boman Irani
+      </td>
+      <td>
+       Summary : An alien on Earth loses the only device he can use to communicate with his spaceship. His innocent nature and child-like questions force the country to evaluate the impact of there religious views on there people.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dune
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 155
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 722737
+      </td>
+      <td>
+       Revenue USD : 108.33
+      </td>
+      <td>
+       Director : Denis Villeneuve
+      </td>
+      <td>
+       Cast : Timothée Chalamet, Rebecca Ferguson, Zendaya, Oscar Isaac
+      </td>
+      <td>
+       Summary : A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Blade Runner 2049
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 164
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 628998
+      </td>
+      <td>
+       Revenue USD : 92.05
+      </td>
+      <td>
+       Director : Denis Villeneuve
+      </td>
+      <td>
+       Cast : Harrison Ford, Ryan Gosling, Ana de Armas, Dave Bautista
+      </td>
+      <td>
+       Summary : Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Donnie Darko
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 113
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 833296
+      </td>
+      <td>
+       Revenue USD : 1.48
+      </td>
+      <td>
+       Director : Richard Kelly
+      </td>
+      <td>
+       Cast : Jake Gyllenhaal, Jena Malone, Mary McDonnell, Holmes Osborne
+      </td>
+      <td>
+       Summary : After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Guardians of the Galaxy
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 1248062
+      </td>
+      <td>
+       Revenue USD : 333.18
+      </td>
+      <td>
+       Director : James Gunn
+      </td>
+      <td>
+       Cast : Chris Pratt, Vin Diesel, Bradley Cooper, Zoe Saldana
+      </td>
+      <td>
+       Summary : A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Her
+      </td>
+      <td>
+       Year : 2013
+      </td>
+      <td>
+       Run time : 126
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 650527
+      </td>
+      <td>
+       Revenue USD : 25.57
+      </td>
+      <td>
+       Director : Spike Jonze
+      </td>
+      <td>
+       Cast : Joaquin Phoenix, Amy Adams, Scarlett Johansson, Rooney Mara
+      </td>
+      <td>
+       Summary : In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Avengers
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 143
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 1437061
+      </td>
+      <td>
+       Revenue USD : 623.28
+      </td>
+      <td>
+       Director : Joss Whedon
+      </td>
+      <td>
+       Cast : Robert Downey Jr., Chris Evans, Scarlett Johansson, Jeremy Renner
+      </td>
+      <td>
+       Summary : Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Martian
+      </td>
+      <td>
+       Year : 2015
+      </td>
+      <td>
+       Run time : 144
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 898454
+      </td>
+      <td>
+       Revenue USD : 228.43
+      </td>
+      <td>
+       Director : Ridley Scott
+      </td>
+      <td>
+       Cast : Matt Damon, Jessica Chastain, Kristen Wiig, Kate Mara
+      </td>
+      <td>
+       Summary : An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 12 Monkeys
+      </td>
+      <td>
+       Year : 1995
+      </td>
+      <td>
+       Run time : 129
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 636997
+      </td>
+      <td>
+       Revenue USD : 57.14
+      </td>
+      <td>
+       Director : Terry Gilliam
+      </td>
+      <td>
+       Cast : Bruce Willis, Madeleine Stowe, Brad Pitt, Joseph Melito
+      </td>
+      <td>
+       Summary : In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Akira
+      </td>
+      <td>
+       Year : 1988
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 198736
+      </td>
+      <td>
+       Revenue USD : 0.55
+      </td>
+      <td>
+       Director : Katsuhiro Ôtomo
+      </td>
+      <td>
+       Cast : Mitsuo Iwata, Nozomu Sasaki, Mami Koyama, Tesshô Genda
+      </td>
+      <td>
+       Summary : A secret military project endangers Neo-Tokyo when it turns a biker gang member into a rampaging psychic psychopath who can only be stopped by a teenager, his gang of biker friends and a group of psychics.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Planet of the Apes
+      </td>
+      <td>
+       Year : 1968
+      </td>
+      <td>
+       Run time : 112
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 188312
+      </td>
+      <td>
+       Revenue USD : 33.4
+      </td>
+      <td>
+       Director : Franklin J. Schaffner
+      </td>
+      <td>
+       Cast : Charlton Heston, Roddy McDowall, Kim Hunter, Maurice Evans
+      </td>
+      <td>
+       Summary : An astronaut crew crash-lands on a planet where highly intelligent non-human ape species are dominant and humans are enslaved.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Nausicaä of the Valley of the Wind
+      </td>
+      <td>
+       Year : 1984
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 177437
+      </td>
+      <td>
+       Revenue USD : 0.5
+      </td>
+      <td>
+       Director : Hayao Miyazaki
+      </td>
+      <td>
+       Cast : Sumi Shimamoto, Mahito Tsujimura, Hisako Kyôda, Gorô Naya
+      </td>
+      <td>
+       Summary : Warrior and pacifist Princess Nausicaä desperately struggles to prevent two warring nations from destroying themselves and their dying planet.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Solaris
+      </td>
+      <td>
+       Year : 1972
+      </td>
+      <td>
+       Run time : 167
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 96146
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Andrei Tarkovsky
+      </td>
+      <td>
+       Cast : Natalya Bondarchuk, Donatas Banionis, Jüri Järvet, Vladislav Dvorzhetskiy
+      </td>
+      <td>
+       Summary : A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : G.O.R.A.
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 127
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 65572
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ömer Faruk Sorak
+      </td>
+      <td>
+       Cast : Cem Yilmaz, Özge Özberk, Ozan Güven, Safak Sezer
+      </td>
+      <td>
+       Summary : A slick young Turk kidnapped by extraterrestrials shows his great « humanitarian spirit » by outwitting the evil commander-in-chief of the planet of G.O.R.A.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Guardians of the Galaxy Vol. 3
+      </td>
+      <td>
+       Year : 2023
+      </td>
+      <td>
+       Run time : 150
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 335962
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : James Gunn
+      </td>
+      <td>
+       Cast : Chris Pratt, Chukwudi Iwuji, Bradley Cooper, Pom Klementieff
+      </td>
+      <td>
+       Summary : Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : E.T. the Extra-Terrestrial
+      </td>
+      <td>
+       Year : 1982
+      </td>
+      <td>
+       Run time : 115
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 428253
+      </td>
+      <td>
+       Revenue USD : 435.11
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Henry Thomas, Drew Barrymore, Peter Coyote, Dee Wallace
+      </td>
+      <td>
+       Summary : A troubled child summons the courage to help a friendly alien escape from Earth and return to his home planet.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Arrival
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 116
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 741478
+      </td>
+      <td>
+       Revenue USD : 100.55
+      </td>
+      <td>
+       Director : Denis Villeneuve
+      </td>
+      <td>
+       Cast : Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg
+      </td>
+      <td>
+       Summary : A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Iron Man
+      </td>
+      <td>
+       Year : 2008
+      </td>
+      <td>
+       Run time : 126
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 1101467
+      </td>
+      <td>
+       Revenue USD : 318.41
+      </td>
+      <td>
+       Director : Jon Favreau
+      </td>
+      <td>
+       Cast : Robert Downey Jr., Gwyneth Paltrow, Terrence Howard, Jeff Bridges
+      </td>
+      <td>
+       Summary : After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Edge of Tomorrow
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 113
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 716815
+      </td>
+      <td>
+       Revenue USD : 100.21
+      </td>
+      <td>
+       Director : Doug Liman
+      </td>
+      <td>
+       Cast : Tom Cruise, Emily Blunt, Bill Paxton, Brendan Gleeson
+      </td>
+      <td>
+       Summary : A soldier fighting aliens gets to relive the same day over and over again, the day restarting every time he dies.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

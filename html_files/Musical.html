@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : The Lion King
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 88
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1111483
+      </td>
+      <td>
+       Revenue USD : 422.78
+      </td>
+      <td>
+       Director : Roger Allers, Rob Minkoff
+      </td>
+      <td>
+       Cast : Matthew Broderick, Jeremy Irons, James Earl Jones, Whoopi Goldberg
+      </td>
+      <td>
+       Summary : Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hamilton
+      </td>
+      <td>
+       Year : 2020
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 107262
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Thomas Kail
+      </td>
+      <td>
+       Cast : Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr., Renée Elise Goldsberry
+      </td>
+      <td>
+       Summary : The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Singin' in the Rain
+      </td>
+      <td>
+       Year : 1952
+      </td>
+      <td>
+       Run time : 103
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 254368
+      </td>
+      <td>
+       Revenue USD : 8.82
+      </td>
+      <td>
+       Director : Stanley Donen, Gene Kelly
+      </td>
+      <td>
+       Cast : Gene Kelly, Donald O'Connor, Debbie Reynolds, Jean Hagen
+      </td>
+      <td>
+       Summary : A silent film star falls for a chorus girl just as he and his delusionally jealous screen partner are trying to make the difficult transition to talking pictures in 1920s Hollywood.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Zindagi Na Milegi Dobara
+      </td>
+      <td>
+       Year : 2011
+      </td>
+      <td>
+       Run time : 155
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 83527
+      </td>
+      <td>
+       Revenue USD : 3.11
+      </td>
+      <td>
+       Director : Zoya Akhtar
+      </td>
+      <td>
+       Cast : Hrithik Roshan, Farhan Akhtar, Abhay Deol, Katrina Kaif
+      </td>
+      <td>
+       Summary : Three friends decide to turn their fantasy vacation into reality after one of their friends gets engaged.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Swades
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 189
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 95709
+      </td>
+      <td>
+       Revenue USD : 1.22
+      </td>
+      <td>
+       Director : Ashutosh Gowariker
+      </td>
+      <td>
+       Cast : Shah Rukh Khan, Gayatri Joshi, Kishori Ballal, Smith Seth
+      </td>
+      <td>
+       Summary : A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the process rediscovers his roots.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Wizard of Oz
+      </td>
+      <td>
+       Year : 1939
+      </td>
+      <td>
+       Run time : 102
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 418383
+      </td>
+      <td>
+       Revenue USD : 2.08
+      </td>
+      <td>
+       Director : Victor Fleming, King Vidor
+      </td>
+      <td>
+       Cast : Judy Garland, Frank Morgan, Ray Bolger, Bert Lahr
+      </td>
+      <td>
+       Summary : Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Sound of Music
+      </td>
+      <td>
+       Year : 1965
+      </td>
+      <td>
+       Run time : 172
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 250709
+      </td>
+      <td>
+       Revenue USD : 163.21
+      </td>
+      <td>
+       Director : Robert Wise
+      </td>
+      <td>
+       Cast : Julie Andrews, Christopher Plummer, Eleanor Parker, Richard Haydn
+      </td>
+      <td>
+       Summary : A young novice is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Lagaan: Once Upon a Time in India
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 224
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 118526
+      </td>
+      <td>
+       Revenue USD : 0.91
+      </td>
+      <td>
+       Director : Ashutosh Gowariker
+      </td>
+      <td>
+       Cast : Aamir Khan, Raghubir Yadav, Gracy Singh, Rachel Shelley
+      </td>
+      <td>
+       Summary : The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sholay
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 162
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 57879
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ramesh Sippy
+      </td>
+      <td>
+       Cast : Sanjeev Kumar, Dharmendra, Amitabh Bachchan, Amjad Khan
+      </td>
+      <td>
+       Summary : After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Anand
+      </td>
+      <td>
+       Year : 1971
+      </td>
+      <td>
+       Run time : 122
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 34835
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Hrishikesh Mukherjee
+      </td>
+      <td>
+       Cast : Rajesh Khanna, Amitabh Bachchan, Sumita Sanyal, Ramesh Deo
+      </td>
+      <td>
+       Summary : The story of a terminally ill man who wishes to live life to the fullest before the inevitable occurs, as told by his best friend.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : La La Land
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 128
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 638943
+      </td>
+      <td>
+       Revenue USD : 151.1
+      </td>
+      <td>
+       Director : Damien Chazelle
+      </td>
+      <td>
+       Cast : Ryan Gosling, Emma Stone, Rosemarie DeWitt, J.K. Simmons
+      </td>
+      <td>
+       Summary : While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Aladdin
+      </td>
+      <td>
+       Year : 1992
+      </td>
+      <td>
+       Run time : 90
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 451442
+      </td>
+      <td>
+       Revenue USD : 217.35
+      </td>
+      <td>
+       Director : Ron Clements, John Musker
+      </td>
+      <td>
+       Cast : Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman
+      </td>
+      <td>
+       Summary : A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Beauty and the Beast
+      </td>
+      <td>
+       Year : 1991
+      </td>
+      <td>
+       Run time : 84
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 471762
+      </td>
+      <td>
+       Revenue USD : 218.97
+      </td>
+      <td>
+       Director : Gary Trousdale, Kirk Wise
+      </td>
+      <td>
+       Cast : Paige O'Hara, Robby Benson, Jesse Corti, Rex Everhart
+      </td>
+      <td>
+       Summary : A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Fiddler on the Roof
+      </td>
+      <td>
+       Year : 1971
+      </td>
+      <td>
+       Run time : 181
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 46315
+      </td>
+      <td>
+       Revenue USD : 80.5
+      </td>
+      <td>
+       Director : Norman Jewison
+      </td>
+      <td>
+       Cast : Topol, Norma Crane, Leonard Frey, Molly Picon
+      </td>
+      <td>
+       Summary : In pre-revolutionary Russia, a Jewish peasant with traditional values contends with marrying off three of his daughters with modern romantic ideals while growing anti-Semitic sentiment threatens his village.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Nightmare Before Christmas
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 76
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 361797
+      </td>
+      <td>
+       Revenue USD : 75.08
+      </td>
+      <td>
+       Director : Henry Selick
+      </td>
+      <td>
+       Cast : Danny Elfman, Chris Sarandon, Catherine O'Hara, William Hickey
+      </td>
+      <td>
+       Summary : Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Blues Brothers
+      </td>
+      <td>
+       Year : 1980
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 209270
+      </td>
+      <td>
+       Revenue USD : 57.23
+      </td>
+      <td>
+       Director : John Landis
+      </td>
+      <td>
+       Cast : John Belushi, Dan Aykroyd, Cab Calloway, John Candy
+      </td>
+      <td>
+       Summary : Jake Blues rejoins with his brother Elwood after being released from prison, but the duo has just days to reunite their old R&amp;B band and save the Catholic home where the two were raised, outrunning the police as they tear through Chicago.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dancer in the Dark
+      </td>
+      <td>
+       Year : 2000
+      </td>
+      <td>
+       Run time : 140
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 114653
+      </td>
+      <td>
+       Revenue USD : 4.18
+      </td>
+      <td>
+       Director : Lars von Trier
+      </td>
+      <td>
+       Cast : Björk, Catherine Deneuve, David Morse, Peter Stormare
+      </td>
+      <td>
+       Summary : An Eastern European US immigrant with a love for musicals has to cope with the gradual loss of her vision.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Kal Ho Naa Ho
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 186
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 73328
+      </td>
+      <td>
+       Revenue USD : 1.79
+      </td>
+      <td>
+       Director : Nikkhil Advani
+      </td>
+      <td>
+       Cast : Preity G Zinta, Shah Rukh Khan, Saif Ali Khan, Jaya Bachchan
+      </td>
+      <td>
+       Summary : Naina, an introverted, perpetually depressed girl's life changes when she meets Aman. But Aman has a secret of his own which changes their lives forever. Embroiled in all this is Rohit, Naina's best friend who conceals his love for her.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Willy Wonka &amp; the Chocolate Factory
+      </td>
+      <td>
+       Year : 1971
+      </td>
+      <td>
+       Run time : 100
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 215082
+      </td>
+      <td>
+       Revenue USD : 4.0
+      </td>
+      <td>
+       Director : Mel Stuart
+      </td>
+      <td>
+       Cast : Gene Wilder, Jack Albertson, Peter Ostrum, Roy Kinnear
+      </td>
+      <td>
+       Summary : A poor but hopeful boy seeks one of the five coveted golden tickets that will send him on a tour of Willy Wonka's mysterious chocolate factory.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Mary Poppins
+      </td>
+      <td>
+       Year : 1964
+      </td>
+      <td>
+       Run time : 139
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 181515
+      </td>
+      <td>
+       Revenue USD : 102.27
+      </td>
+      <td>
+       Director : Robert Stevenson
+      </td>
+      <td>
+       Cast : Julie Andrews, Dick Van Dyke, David Tomlinson, Glynis Johns
+      </td>
+      <td>
+       Summary : In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Cabaret
+      </td>
+      <td>
+       Year : 1972
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 58074
+      </td>
+      <td>
+       Revenue USD : 42.77
+      </td>
+      <td>
+       Director : Bob Fosse
+      </td>
+      <td>
+       Cast : Liza Minnelli, Michael York, Helmut Griem, Joel Grey
+      </td>
+      <td>
+       Summary : A female girlie club entertainer in Weimar Republic era Berlin romances two men while the Nazi Party rises to power around them.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : All That Jazz
+      </td>
+      <td>
+       Year : 1979
+      </td>
+      <td>
+       Run time : 123
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 34206
+      </td>
+      <td>
+       Revenue USD : 37.82
+      </td>
+      <td>
+       Director : Bob Fosse
+      </td>
+      <td>
+       Cast : Roy Scheider, Jessica Lange, Ann Reinking, Leland Palmer
+      </td>
+      <td>
+       Summary : Director/choreographer Bob Fosse tells his own life story as he details the sordid career of Joe Gideon, a womanizing, drug-using dancer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : My Fair Lady
+      </td>
+      <td>
+       Year : 1964
+      </td>
+      <td>
+       Run time : 170
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 99648
+      </td>
+      <td>
+       Revenue USD : 72.0
+      </td>
+      <td>
+       Director : George Cukor
+      </td>
+      <td>
+       Cast : Audrey Hepburn, Rex Harrison, Stanley Holloway, Wilfrid Hyde-White
+      </td>
+      <td>
+       Summary : In 1910s London, snobbish phonetics professor Henry Higgins agrees to a wager that he can make crude flower girl, Eliza Doolittle, presentable in high society.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Umbrellas of Cherbourg
+      </td>
+      <td>
+       Year : 1964
+      </td>
+      <td>
+       Run time : 91
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 30212
+      </td>
+      <td>
+       Revenue USD : 0.03
+      </td>
+      <td>
+       Director : Jacques Demy
+      </td>
+      <td>
+       Cast : Catherine Deneuve, Nino Castelnuovo, Anne Vernon, Marc Michel
+      </td>
+      <td>
+       Summary : A young woman separated from her lover by war faces a life-altering decision.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : A Night at the Opera
+      </td>
+      <td>
+       Year : 1935
+      </td>
+      <td>
+       Run time : 96
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 34203
+      </td>
+      <td>
+       Revenue USD : 2.54
+      </td>
+      <td>
+       Director : Sam Wood, Edmund Goulding
+      </td>
+      <td>
+       Cast : Groucho Marx, Chico Marx, Harpo Marx, Kitty Carlisle
+      </td>
+      <td>
+       Summary : A sly business manager and the wacky friends of two opera singers in Italy help them achieve success in America while humiliating their stuffy and snobbish enemies.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Duck Soup
+      </td>
+      <td>
+       Year : 1933
+      </td>
+      <td>
+       Run time : 69
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 61977
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Leo McCarey
+      </td>
+      <td>
+       Cast : Groucho Marx, Harpo Marx, Chico Marx, Zeppo Marx
+      </td>
+      <td>
+       Summary : Rufus T. Firefly is named the dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of his wealthy backer Mrs. Teasdale, contending with two inept spies who can't seem to keep straight which side they're on.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Veer Zaara
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 192
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 55949
+      </td>
+      <td>
+       Revenue USD : 2.92
+      </td>
+      <td>
+       Director : Yash Chopra
+      </td>
+      <td>
+       Cast : Shah Rukh Khan, Preity G Zinta, Rani Mukerji, Kirron Kher
+      </td>
+      <td>
+       Summary : "Veer-Zaara" is a saga of love, separation, courage, and sacrifice. A love story that is an inspiration and will remain a legend forever.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Tangled
+      </td>
+      <td>
+       Year : 2010
+      </td>
+      <td>
+       Run time : 100
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 480437
+      </td>
+      <td>
+       Revenue USD : 200.82
+      </td>
+      <td>
+       Director : Nathan Greno, Byron Howard
+      </td>
+      <td>
+       Cast : Mandy Moore, Zachary Levi, Donna Murphy, Ron Perlman
+      </td>
+      <td>
+       Summary : The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Mulan
+      </td>
+      <td>
+       Year : 1998
+      </td>
+      <td>
+       Run time : 87
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 306980
+      </td>
+      <td>
+       Revenue USD : 120.62
+      </td>
+      <td>
+       Director : Tony Bancroft, Barry Cook
+      </td>
+      <td>
+       Cast : Ming-Na Wen, Eddie Murphy, BD Wong, Miguel Ferrer
+      </td>
+      <td>
+       Summary : To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Fantasia
+      </td>
+      <td>
+       Year : 1940
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 101624
+      </td>
+      <td>
+       Revenue USD : 76.41
+      </td>
+      <td>
+       Director : James Algar, Samuel Armstrong, Ford Beebe Jr., Norman Ferguson, David Hand, Jim Handley, T. Hee, Wilfred Jackson, Hamilton Luske, Bill Roberts, Paul Satterfield, Ben Sharpsteen
+      </td>
+      <td>
+       Cast : Leopold Stokowski, Deems Taylor, The Philadelphia Orchestra, Corey Burton
+      </td>
+      <td>
+       Summary : A series of eight famous pieces of classical music, conducted by Leopold Stokowski and interpreted in animation by Walt Disney's team of artists.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : South Park: Bigger, Longer &amp; Uncut
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 81
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 211990
+      </td>
+      <td>
+       Revenue USD : 52.04
+      </td>
+      <td>
+       Director : Trey Parker
+      </td>
+      <td>
+       Cast : Trey Parker, Matt Stone, Mary Kay Bergman, Isaac Hayes
+      </td>
+      <td>
+       Summary : When Stan Marsh and his friends go see an R-rated movie, they start cursing and their parents think that Canada is to blame.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hedwig and the Angry Inch
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 95
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 36930
+      </td>
+      <td>
+       Revenue USD : 3.03
+      </td>
+      <td>
+       Director : John Cameron Mitchell
+      </td>
+      <td>
+       Cast : John Cameron Mitchell, Miriam Shor, Stephen Trask, Theodore Liscinski
+      </td>
+      <td>
+       Summary : A gender-queer punk-rock singer from East Berlin tours the U.S. with her band as she tells her life story and follows the former lover/band-mate who stole her songs.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Muppet Christmas Carol
+      </td>
+      <td>
+       Year : 1992
+      </td>
+      <td>
+       Run time : 85
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 65044
+      </td>
+      <td>
+       Revenue USD : 27.28
+      </td>
+      <td>
+       Director : Brian Henson
+      </td>
+      <td>
+       Cast : Michael Caine, Dave Goelz, Steve Whitmire, Jerry Nelson
+      </td>
+      <td>
+       Summary : The Muppets present their own touching rendition of Charles Dickens' classic tale.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Moana
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 107
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 363327
+      </td>
+      <td>
+       Revenue USD : 248.76
+      </td>
+      <td>
+       Director : Ron Clements, John Musker, Don Hall, Chris Williams
+      </td>
+      <td>
+       Cast : Auli'i Cravalho, Dwayne Johnson, Rachel House, Temuera Morrison
+      </td>
+      <td>
+       Summary : In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Moulin Rouge!
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 127
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 294892
+      </td>
+      <td>
+       Revenue USD : 57.39
+      </td>
+      <td>
+       Director : Baz Luhrmann
+      </td>
+      <td>
+       Cast : Nicole Kidman, Ewan McGregor, John Leguizamo, Jim Broadbent
+      </td>
+      <td>
+       Summary : A poor Bohemian poet in 1890s Paris falls for a beautiful courtesan and nightclub star coveted by a jealous duke.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Snow White and the Seven Dwarfs
+      </td>
+      <td>
+       Year : 1937
+      </td>
+      <td>
+       Run time : 83
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 210862
+      </td>
+      <td>
+       Revenue USD : 184.93
+      </td>
+      <td>
+       Director : William Cottrell, David Hand, Wilfred Jackson, Larry Morey, Perce Pearce, Ben Sharpsteen
+      </td>
+      <td>
+       Cast : Adriana Caselotti, Harry Stockwell, Lucille La Verne, Roy Atwell
+      </td>
+      <td>
+       Summary : Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Little Mermaid
+      </td>
+      <td>
+       Year : 1989
+      </td>
+      <td>
+       Run time : 83
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 284345
+      </td>
+      <td>
+       Revenue USD : 111.54
+      </td>
+      <td>
+       Director : Ron Clements, John Musker
+      </td>
+      <td>
+       Cast : Jodi Benson, Samuel E. Wright, Rene Auberjonois, Christopher Daniel Barnes
+      </td>
+      <td>
+       Summary : A mermaid princess makes a Faustian bargain in an attempt to become human and win a prince's love.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Guillermo del Toro's Pinocchio
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 106051
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Guillermo del Toro, Mark Gustafson
+      </td>
+      <td>
+       Cast : Ewan McGregor, David Bradley, Gregory Mann, Burn Gorman
+      </td>
+      <td>
+       Summary : A father's wish magically brings a wooden boy to life in Italy, giving him a chance to care for the child.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Jungle Book
+      </td>
+      <td>
+       Year : 1967
+      </td>
+      <td>
+       Run time : 78
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 194101
+      </td>
+      <td>
+       Revenue USD : 141.84
+      </td>
+      <td>
+       Director : Wolfgang Reitherman
+      </td>
+      <td>
+       Cast : Phil Harris, Sebastian Cabot, Louis Prima, Bruce Reitherman
+      </td>
+      <td>
+       Summary : Bagheera the Panther and Baloo the Bear have a difficult time trying to convince a boy to leave the jungle for human civilization.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : West Side Story
+      </td>
+      <td>
+       Year : 1961
+      </td>
+      <td>
+       Run time : 153
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 118960
+      </td>
+      <td>
+       Revenue USD : 43.66
+      </td>
+      <td>
+       Director : Jerome Robbins, Robert Wise
+      </td>
+      <td>
+       Cast : Natalie Wood, George Chakiris, Richard Beymer, Russ Tamblyn
+      </td>
+      <td>
+       Summary : Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Muppet Movie
+      </td>
+      <td>
+       Year : 1979
+      </td>
+      <td>
+       Run time : 95
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 38206
+      </td>
+      <td>
+       Revenue USD : 76.66
+      </td>
+      <td>
+       Director : James Frawley
+      </td>
+      <td>
+       Cast : Jim Henson, Frank Oz, Jerry Nelson, Richard Hunt
+      </td>
+      <td>
+       Summary : Kermit and his newfound friends trek across America to find success in Hollywood, but a frog legs merchant is after Kermit.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Baazigar
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 175
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 29424
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Abbas Alibhai Burmawalla, Mastan Alibhai Burmawalla
+      </td>
+      <td>
+       Cast : Shah Rukh Khan, Kajol, Dalip Tahil, Rakhee Gulzar
+      </td>
+      <td>
+       Summary : A young man with a vendetta against a business tycoon seduces the man's younger daughter, but she begins to suspect her new lover's connection with her elder sister and his ulterior motive.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Greatest Showman
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 105
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 301120
+      </td>
+      <td>
+       Revenue USD : 174.34
+      </td>
+      <td>
+       Director : Michael Gracey
+      </td>
+      <td>
+       Cast : Hugh Jackman, Michelle Williams, Zac Efron, Zendaya
+      </td>
+      <td>
+       Summary : Celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle that became a worldwide sensation.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Les Misérables
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 158
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 340860
+      </td>
+      <td>
+       Revenue USD : 148.81
+      </td>
+      <td>
+       Director : Tom Hooper
+      </td>
+      <td>
+       Cast : Hugh Jackman, Russell Crowe, Anne Hathaway, Amanda Seyfried
+      </td>
+      <td>
+       Summary : In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter. The decision changes their lives forever.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Robin Hood
+      </td>
+      <td>
+       Year : 1973
+      </td>
+      <td>
+       Run time : 83
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 135488
+      </td>
+      <td>
+       Revenue USD : 32.06
+      </td>
+      <td>
+       Director : Wolfgang Reitherman, David Hand
+      </td>
+      <td>
+       Cast : Brian Bedford, Phil Harris, Roger Miller, Peter Ustinov
+      </td>
+      <td>
+       Summary : The story of the legendary British outlaw portrayed with the characters as anthropomorphic animals.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : tick, tick... BOOM!
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 120
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 115611
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Lin-Manuel Miranda
+      </td>
+      <td>
+       Cast : Andrew Garfield, Alexandra Shipp, Robin de Jesus, Vanessa Hudgens
+      </td>
+      <td>
+       Summary : On the cusp of his 30th birthday, a promising young theater composer navigates love, friendship and the pressures of life as an artist in New York City.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hair
+      </td>
+      <td>
+       Year : 1979
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 39794
+      </td>
+      <td>
+       Revenue USD : 15.28
+      </td>
+      <td>
+       Director : Milos Forman
+      </td>
+      <td>
+       Cast : John Savage, Treat Williams, Beverly D'Angelo, Annie Golden
+      </td>
+      <td>
+       Summary : Claude Bukowski leaves the family ranch in Oklahoma for New York where he is rapidly embraced into the hippie group of youngsters led by Berger, yet he's already been drafted. He soon falls in love with Sheila Franklin, a rich girl but still a rebel inside.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Pinocchio
+      </td>
+      <td>
+       Year : 1940
+      </td>
+      <td>
+       Run time : 88
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 156025
+      </td>
+      <td>
+       Revenue USD : 84.25
+      </td>
+      <td>
+       Director : Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen
+      </td>
+      <td>
+       Cast : Dickie Jones, Christian Rub, Mel Blanc, Don Brodie
+      </td>
+      <td>
+       Summary : A living puppet, with the help of a cricket as his conscience, must prove himself worthy to become a real boy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : White Christmas
+      </td>
+      <td>
+       Year : 1954
+      </td>
+      <td>
+       Run time : 120
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 47067
+      </td>
+      <td>
+       Revenue USD : 30.0
+      </td>
+      <td>
+       Director : Michael Curtiz
+      </td>
+      <td>
+       Cast : Bing Crosby, Danny Kaye, Rosemary Clooney, Vera-Ellen
+      </td>
+      <td>
+       Summary : A successful song-and-dance team become romantically involved with a sister act and team up to save the failing Vermont inn of their former commanding general.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Many Adventures of Winnie the Pooh
+      </td>
+      <td>
+       Year : 1977
+      </td>
+      <td>
+       Run time : 74
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 38823
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : John Lounsbery, Wolfgang Reitherman, Ben Sharpsteen
+      </td>
+      <td>
+       Cast : Sebastian Cabot, Junius Matthews, Barbara Luddy, Howard Morris
+      </td>
+      <td>
+       Summary : In this collection of animated shorts based on the stories and characters by A.A. Milne, Winnie the Pooh, a honey-loving teddy bear, embarks on some eccentric adventures.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

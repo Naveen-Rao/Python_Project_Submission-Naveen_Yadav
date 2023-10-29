@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : Whiplash
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 106
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 939702
+      </td>
+      <td>
+       Revenue USD : 13.09
+      </td>
+      <td>
+       Director : Damien Chazelle
+      </td>
+      <td>
+       Cast : Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser
+      </td>
+      <td>
+       Summary : A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Pianist
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 150
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 883372
+      </td>
+      <td>
+       Revenue USD : 32.57
+      </td>
+      <td>
+       Director : Roman Polanski
+      </td>
+      <td>
+       Cast : Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox
+      </td>
+      <td>
+       Summary : A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Coco
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 105
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 560420
+      </td>
+      <td>
+       Revenue USD : 209.73
+      </td>
+      <td>
+       Director : Lee Unkrich, Adrian Molina
+      </td>
+      <td>
+       Cast : Anthony Gonzalez, Gael García Bernal, Benjamin Bratt, Alanna Ubach
+      </td>
+      <td>
+       Summary : Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Amadeus
+      </td>
+      <td>
+       Year : 1984
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 418911
+      </td>
+      <td>
+       Revenue USD : 51.97
+      </td>
+      <td>
+       Director : Milos Forman
+      </td>
+      <td>
+       Cast : F. Murray Abraham, Tom Hulce, Elizabeth Berridge, Roy Dotrice
+      </td>
+      <td>
+       Summary : The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart's talent and claimed to have murdered him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Green Book
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 539621
+      </td>
+      <td>
+       Revenue USD : 85.08
+      </td>
+      <td>
+       Director : Peter Farrelly
+      </td>
+      <td>
+       Cast : Viggo Mortensen, Mahershala Ali, Linda Cardellini, Sebastian Maniscalco
+      </td>
+      <td>
+       Summary : A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Some Like It Hot
+      </td>
+      <td>
+       Year : 1959
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 277968
+      </td>
+      <td>
+       Revenue USD : 25.0
+      </td>
+      <td>
+       Director : Billy Wilder
+      </td>
+      <td>
+       Cast : Marilyn Monroe, Tony Curtis, Jack Lemmon, George Raft
+      </td>
+      <td>
+       Summary : After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Red Shoes
+      </td>
+      <td>
+       Year : 1948
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 37825
+      </td>
+      <td>
+       Revenue USD : 10.9
+      </td>
+      <td>
+       Director : Michael Powell, Emeric Pressburger
+      </td>
+      <td>
+       Cast : Anton Walbrook, Marius Goring, Moira Shearer, Robert Helpmann
+      </td>
+      <td>
+       Summary : A young ballet dancer is torn between the man she loves and her pursuit to become a prima ballerina.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Farewell My Concubine
+      </td>
+      <td>
+       Year : 1992
+      </td>
+      <td>
+       Run time : 171
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 31946
+      </td>
+      <td>
+       Revenue USD : 5.22
+      </td>
+      <td>
+       Director : Kaige Chen
+      </td>
+      <td>
+       Cast : Leslie Cheung, Fengyi Zhang, Gong Li, You Ge
+      </td>
+      <td>
+       Summary : Two boys meet at an opera training school in Peking in 1924. Their resulting friendship will span nearly 70 years and endure some of the most troublesome times in China's history.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Autumn Sonata
+      </td>
+      <td>
+       Year : 1978
+      </td>
+      <td>
+       Run time : 99
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 36787
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ingmar Bergman
+      </td>
+      <td>
+       Cast : Ingrid Bergman, Liv Ullmann, Lena Nyman, Halvar Björk
+      </td>
+      <td>
+       Summary : A devoted wife is visited by her mother, a successful concert pianist who had little time for her when she was young.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : La La Land
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 128
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 638943
+      </td>
+      <td>
+       Revenue USD : 151.1
+      </td>
+      <td>
+       Director : Damien Chazelle
+      </td>
+      <td>
+       Cast : Ryan Gosling, Emma Stone, Rosemarie DeWitt, J.K. Simmons
+      </td>
+      <td>
+       Summary : While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : CODA
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 111
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 154607
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Sian Heder
+      </td>
+      <td>
+       Cast : Emilia Jones, Marlee Matlin, Troy Kotsur, Daniel Durant
+      </td>
+      <td>
+       Summary : As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family's fishing business is threatened, Ruby finds herself torn between pursuing her passion at Berklee College of Music and her fear of abandoning her parents.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Soul
+      </td>
+      <td>
+       Year : 2020
+      </td>
+      <td>
+       Run time : 100
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 360286
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Pete Docter, Kemp Powers
+      </td>
+      <td>
+       Cast : Jamie Foxx, Tina Fey, Graham Norton, Rachel House
+      </td>
+      <td>
+       Summary : After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Pink Floyd: The Wall
+      </td>
+      <td>
+       Year : 1982
+      </td>
+      <td>
+       Run time : 95
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 84035
+      </td>
+      <td>
+       Revenue USD : 22.24
+      </td>
+      <td>
+       Director : Alan Parker
+      </td>
+      <td>
+       Cast : Bob Geldof, Christine Hargreaves, James Laurenson, Eleanor David
+      </td>
+      <td>
+       Summary : A confined but troubled rock star descends into madness in the midst of his physical and social isolation from everyone.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Legend of 1900
+      </td>
+      <td>
+       Year : 1998
+      </td>
+      <td>
+       Run time : 169
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 67866
+      </td>
+      <td>
+       Revenue USD : 0.26
+      </td>
+      <td>
+       Director : Giuseppe Tornatore
+      </td>
+      <td>
+       Cast : Tim Roth, Pruitt Taylor Vince, Mélanie Thierry, Bill Nunn
+      </td>
+      <td>
+       Summary : A baby boy discovered on an ocean liner in 1900 grows into a musical prodigy, never setting foot on land.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Almost Famous
+      </td>
+      <td>
+       Year : 2000
+      </td>
+      <td>
+       Run time : 122
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 288123
+      </td>
+      <td>
+       Revenue USD : 32.53
+      </td>
+      <td>
+       Director : Cameron Crowe
+      </td>
+      <td>
+       Cast : Billy Crudup, Patrick Fugit, Kate Hudson, Frances McDormand
+      </td>
+      <td>
+       Summary : A high-school boy in the early 1970s is given the chance to write a story for Rolling Stone magazine about an up-and-coming rock band as he accompanies them on their concert tour.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Bohemian Rhapsody
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 134
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 571875
+      </td>
+      <td>
+       Revenue USD : 216.43
+      </td>
+      <td>
+       Director : Bryan Singer
+      </td>
+      <td>
+       Cast : Rami Malek, Lucy Boynton, Gwilym Lee, Ben Hardy
+      </td>
+      <td>
+       Summary : The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Blues Brothers
+      </td>
+      <td>
+       Year : 1980
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 209270
+      </td>
+      <td>
+       Revenue USD : 57.23
+      </td>
+      <td>
+       Director : John Landis
+      </td>
+      <td>
+       Cast : John Belushi, Dan Aykroyd, Cab Calloway, John Candy
+      </td>
+      <td>
+       Summary : Jake Blues rejoins with his brother Elwood after being released from prison, but the duo has just days to reunite their old R&amp;B band and save the Catholic home where the two were raised, outrunning the police as they tear through Chicago.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : This Is Spinal Tap
+      </td>
+      <td>
+       Year : 1984
+      </td>
+      <td>
+       Run time : 82
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 144551
+      </td>
+      <td>
+       Revenue USD : 4.74
+      </td>
+      <td>
+       Director : Rob Reiner
+      </td>
+      <td>
+       Cast : Rob Reiner, Michael McKean, Christopher Guest, Kimberly Stringer
+      </td>
+      <td>
+       Summary : Spinal Tap, one of England's loudest bands, is chronicled by film director Marty DiBergi on what proves to be a fateful tour.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sing Street
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 106
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 98969
+      </td>
+      <td>
+       Revenue USD : 3.24
+      </td>
+      <td>
+       Director : John Carney
+      </td>
+      <td>
+       Cast : Ferdia Walsh-Peelo, Aidan Gillen, Maria Doyle Kennedy, Jack Reynor
+      </td>
+      <td>
+       Summary : A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Three Colors: Blue
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 94
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 108132
+      </td>
+      <td>
+       Revenue USD : 1.32
+      </td>
+      <td>
+       Director : Krzysztof Kieslowski
+      </td>
+      <td>
+       Cast : Juliette Binoche, Zbigniew Zamachowski, Julie Delpy, Benoît Régent
+      </td>
+      <td>
+       Summary : A woman struggles to find a way to live her life after the death of her husband and child.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Cléo from 5 to 7
+      </td>
+      <td>
+       Year : 1962
+      </td>
+      <td>
+       Run time : 90
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 25823
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Agnès Varda
+      </td>
+      <td>
+       Cast : Corinne Marchand, Antoine Bourseiller, Dominique Davray, Dorothée Blanck
+      </td>
+      <td>
+       Summary : Cleo, a singer and hypochondriac, becomes increasingly worried that she might have cancer while awaiting test results from her doctor.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Gully Boy
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 154
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 42353
+      </td>
+      <td>
+       Revenue USD : 5.57
+      </td>
+      <td>
+       Director : Zoya Akhtar
+      </td>
+      <td>
+       Cast : Ranveer Singh, Alia Bhatt, Siddhant Chaturvedi, Vijay Raaz
+      </td>
+      <td>
+       Summary : A coming-of-age story based on the lives of street rappers in Mumbai.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Walk the Line
+      </td>
+      <td>
+       Year : 2005
+      </td>
+      <td>
+       Run time : 136
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 261166
+      </td>
+      <td>
+       Revenue USD : 119.52
+      </td>
+      <td>
+       Director : James Mangold
+      </td>
+      <td>
+       Cast : Joaquin Phoenix, Reese Witherspoon, Ginnifer Goodwin, Robert Patrick
+      </td>
+      <td>
+       Summary : A chronicle of country music legend Johnny Cash's life, from his early days on an Arkansas cotton farm to his rise to fame with Sun Records in Memphis, where he recorded alongside Elvis Presley, Jerry Lee Lewis, and Carl Perkins.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Straight Outta Compton
+      </td>
+      <td>
+       Year : 2015
+      </td>
+      <td>
+       Run time : 147
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 213326
+      </td>
+      <td>
+       Revenue USD : 161.2
+      </td>
+      <td>
+       Director : F. Gary Gray
+      </td>
+      <td>
+       Cast : O'Shea Jackson Jr., Corey Hawkins, Jason Mitchell, Neil Brown Jr.
+      </td>
+      <td>
+       Summary : The rap group NWA emerges from the mean streets of Compton in Los Angeles, California, in the mid-1980s and revolutionizes Hip Hop culture with their music and tales about life in the hood.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Cabaret
+      </td>
+      <td>
+       Year : 1972
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 58074
+      </td>
+      <td>
+       Revenue USD : 42.77
+      </td>
+      <td>
+       Director : Bob Fosse
+      </td>
+      <td>
+       Cast : Liza Minnelli, Michael York, Helmut Griem, Joel Grey
+      </td>
+      <td>
+       Summary : A female girlie club entertainer in Weimar Republic era Berlin romances two men while the Nazi Party rises to power around them.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : All That Jazz
+      </td>
+      <td>
+       Year : 1979
+      </td>
+      <td>
+       Run time : 123
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 34206
+      </td>
+      <td>
+       Revenue USD : 37.82
+      </td>
+      <td>
+       Director : Bob Fosse
+      </td>
+      <td>
+       Cast : Roy Scheider, Jessica Lange, Ann Reinking, Leland Palmer
+      </td>
+      <td>
+       Summary : Director/choreographer Bob Fosse tells his own life story as he details the sordid career of Joe Gideon, a womanizing, drug-using dancer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Once
+      </td>
+      <td>
+       Year : 2007
+      </td>
+      <td>
+       Run time : 86
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 119973
+      </td>
+      <td>
+       Revenue USD : 9.44
+      </td>
+      <td>
+       Director : John Carney
+      </td>
+      <td>
+       Cast : Glen Hansard, Markéta Irglová, Hugh Walsh, Gerard Hendrick
+      </td>
+      <td>
+       Summary : A modern-day musical about a busker and an immigrant and their eventful week in Dublin, as they write, rehearse and record songs that tell their love story.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Chorus
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 97
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 65736
+      </td>
+      <td>
+       Revenue USD : 3.64
+      </td>
+      <td>
+       Director : Christophe Barratier
+      </td>
+      <td>
+       Cast : Gérard Jugnot, François Berléand, Jean-Baptiste Maunier, Kad Merad
+      </td>
+      <td>
+       Summary : The new teacher at a severely administered boys' boarding school works to positively affect the students' lives through music.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : A Night at the Opera
+      </td>
+      <td>
+       Year : 1935
+      </td>
+      <td>
+       Run time : 96
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 34203
+      </td>
+      <td>
+       Revenue USD : 2.54
+      </td>
+      <td>
+       Director : Sam Wood, Edmund Goulding
+      </td>
+      <td>
+       Cast : Groucho Marx, Chico Marx, Harpo Marx, Kitty Carlisle
+      </td>
+      <td>
+       Summary : A sly business manager and the wacky friends of two opera singers in Italy help them achieve success in America while humiliating their stuffy and snobbish enemies.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Secret Superstar
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 150
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 28459
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Advait Chandan
+      </td>
+      <td>
+       Cast : Zaira Wasim, Meher Vij, Raj Arjun, Aamir Khan
+      </td>
+      <td>
+       Summary : A talented teenage singer-songwriter living amid domestic abuse becomes a YouTube sensation after a video in which she hides her identity goes viral.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sound of Metal
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 120
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 143376
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Darius Marder
+      </td>
+      <td>
+       Cast : Riz Ahmed, Olivia Cooke, Paul Raci, Lauren Ridloff
+      </td>
+      <td>
+       Summary : A heavy metal drummer's life is turned upside down when he begins to lose his hearing and he must confront a future filled with silence.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : O Brother, Where Art Thou?
+      </td>
+      <td>
+       Year : 2000
+      </td>
+      <td>
+       Run time : 107
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 324552
+      </td>
+      <td>
+       Revenue USD : 45.51
+      </td>
+      <td>
+       Director : Joel Coen, Ethan Coen
+      </td>
+      <td>
+       Cast : George Clooney, John Turturro, Tim Blake Nelson, John Goodman
+      </td>
+      <td>
+       Summary : In the deep south during the 1930s, three escaped convicts search for hidden treasure while a relentless lawman pursues them.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Fantasia
+      </td>
+      <td>
+       Year : 1940
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 101624
+      </td>
+      <td>
+       Revenue USD : 76.41
+      </td>
+      <td>
+       Director : James Algar, Samuel Armstrong, Ford Beebe Jr., Norman Ferguson, David Hand, Jim Handley, T. Hee, Wilfred Jackson, Hamilton Luske, Bill Roberts, Paul Satterfield, Ben Sharpsteen
+      </td>
+      <td>
+       Cast : Leopold Stokowski, Deems Taylor, The Philadelphia Orchestra, Corey Burton
+      </td>
+      <td>
+       Summary : A series of eight famous pieces of classical music, conducted by Leopold Stokowski and interpreted in animation by Walt Disney's team of artists.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Billy Elliot
+      </td>
+      <td>
+       Year : 2000
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 140219
+      </td>
+      <td>
+       Revenue USD : 22.0
+      </td>
+      <td>
+       Director : Stephen Daldry
+      </td>
+      <td>
+       Cast : Jamie Bell, Julie Walters, Jean Heywood, Jamie Draven
+      </td>
+      <td>
+       Summary : A talented young boy becomes torn between his unexpected love of dance and the disintegration of his family.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Ray
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 152
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 154715
+      </td>
+      <td>
+       Revenue USD : 75.33
+      </td>
+      <td>
+       Director : Taylor Hackford
+      </td>
+      <td>
+       Cast : Jamie Foxx, Regina King, Kerry Washington, Clifton Powell
+      </td>
+      <td>
+       Summary : The story of the life and career of the legendary rhythm and blues musician Ray Charles, from his humble beginnings in the South, where he went blind at age seven, to his meteoric rise to stardom during the 1950s and 1960s.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hedwig and the Angry Inch
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 95
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 36930
+      </td>
+      <td>
+       Revenue USD : 3.03
+      </td>
+      <td>
+       Director : John Cameron Mitchell
+      </td>
+      <td>
+       Cast : John Cameron Mitchell, Miriam Shor, Stephen Trask, Theodore Liscinski
+      </td>
+      <td>
+       Summary : A gender-queer punk-rock singer from East Berlin tours the U.S. with her band as she tells her life story and follows the former lover/band-mate who stole her songs.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Broken Circle Breakdown
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 111
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 42665
+      </td>
+      <td>
+       Revenue USD : 0.18
+      </td>
+      <td>
+       Director : Felix van Groeningen
+      </td>
+      <td>
+       Cast : Veerle Baetens, Johan Heldenbergh, Nell Cattrysse, Geert Van Rampelberg
+      </td>
+      <td>
+       Summary : Elise and Didier fall in love at first sight, in spite of their differences. He talks, she listens. He's a romantic atheist, she's a religious realist. When their daughter becomes seriously ill, their love is put on trial.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Triplets of Belleville
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 80
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 56330
+      </td>
+      <td>
+       Revenue USD : 7.0
+      </td>
+      <td>
+       Director : Sylvain Chomet
+      </td>
+      <td>
+       Cast : Michèle Caucheteux, Jean-Claude Donda, Michel Robin, Monica Viegas
+      </td>
+      <td>
+       Summary : When her grandson is kidnapped during the Tour de France, Madame Souza and her beloved pooch Bruno team up with the Belleville Sisters--an aged song-and-dance team from the days of Fred Astaire--to rescue him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Double Life of Véronique
+      </td>
+      <td>
+       Year : 1991
+      </td>
+      <td>
+       Run time : 98
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 51754
+      </td>
+      <td>
+       Revenue USD : 2.0
+      </td>
+      <td>
+       Director : Krzysztof Kieslowski
+      </td>
+      <td>
+       Cast : Irène Jacob, Wladyslaw Kowalski, Halina Gryglaszewska, Kalina Jedrusik
+      </td>
+      <td>
+       Summary : Two parallel stories about two identical women; one living in Poland, the other in France. They don't know each other, but their lives are nevertheless profoundly connected.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Rockstar
+      </td>
+      <td>
+       Year : 2011
+      </td>
+      <td>
+       Run time : 159
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 47271
+      </td>
+      <td>
+       Revenue USD : 0.99
+      </td>
+      <td>
+       Director : Imtiaz Ali
+      </td>
+      <td>
+       Cast : Ranbir Kapoor, Nargis Fakhri, Shammi Kapoor, Kumud Mishra
+      </td>
+      <td>
+       Summary : Janardhan Jakhar chases his dreams of becoming a big Rock star, during which he falls in love with Heer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Joyeux Noel
+      </td>
+      <td>
+       Year : 2005
+      </td>
+      <td>
+       Run time : 116
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 31046
+      </td>
+      <td>
+       Revenue USD : 1.05
+      </td>
+      <td>
+       Director : Christian Carion
+      </td>
+      <td>
+       Cast : Diane Kruger, Benno Fürmann, Guillaume Canet, Natalie Dessay
+      </td>
+      <td>
+       Summary : In December 1914, an unofficial Christmas truce on the Western Front allows soldiers from opposing sides of the First World War to gain insight into each other's way of life.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Baby Driver
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 113
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 585812
+      </td>
+      <td>
+       Revenue USD : 107.83
+      </td>
+      <td>
+       Director : Edgar Wright
+      </td>
+      <td>
+       Cast : Ansel Elgort, Jon Bernthal, Jon Hamm, Eiza González
+      </td>
+      <td>
+       Summary : After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : A Star Is Born
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 136
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 407236
+      </td>
+      <td>
+       Revenue USD : 215.29
+      </td>
+      <td>
+       Director : Bradley Cooper
+      </td>
+      <td>
+       Cast : Lady Gaga, Bradley Cooper, Sam Elliott, Greg Grunberg
+      </td>
+      <td>
+       Summary : A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Commitments
+      </td>
+      <td>
+       Year : 1991
+      </td>
+      <td>
+       Run time : 118
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 37559
+      </td>
+      <td>
+       Revenue USD : 14.92
+      </td>
+      <td>
+       Director : Alan Parker
+      </td>
+      <td>
+       Cast : Robert Arkins, Michael Aherne, Angeline Ball, Maria Doyle Kennedy
+      </td>
+      <td>
+       Summary : Jimmy Rabbitte, an unemployed Dublin boy, decides to put together a soul band made up entirely of the Irish working class.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Nashville
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 27907
+      </td>
+      <td>
+       Revenue USD : 14.82
+      </td>
+      <td>
+       Director : Robert Altman
+      </td>
+      <td>
+       Cast : Keith Carradine, Karen Black, Ronee Blakley, Shelley Duvall
+      </td>
+      <td>
+       Summary : Over the course of a few hectic days, numerous interrelated people prepare for a political convention.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : La Vie En Rose
+      </td>
+      <td>
+       Year : 2007
+      </td>
+      <td>
+       Run time : 140
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 89703
+      </td>
+      <td>
+       Revenue USD : 10.3
+      </td>
+      <td>
+       Director : Olivier Dahan
+      </td>
+      <td>
+       Cast : Marion Cotillard, Sylvie Testud, Pascal Greggory, Emmanuelle Seigner
+      </td>
+      <td>
+       Summary : Biopic of the iconic French singer Édith Piaf. Raised by her grandmother in a brothel, she was discovered while singing on a street corner at the age of 19. Despite her success, Piaf's life was filled with tragedy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Control
+      </td>
+      <td>
+       Year : 2007
+      </td>
+      <td>
+       Run time : 122
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 67717
+      </td>
+      <td>
+       Revenue USD : 0.87
+      </td>
+      <td>
+       Director : Anton Corbijn
+      </td>
+      <td>
+       Cast : Sam Riley, Samantha Morton, Craig Parkinson, Alexandra Maria Lara
+      </td>
+      <td>
+       Summary : A profile of Ian Curtis, the enigmatic singer of Joy Division whose personal, professional, and romantic troubles led him to commit suicide at the age of 23.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Shine
+      </td>
+      <td>
+       Year : 1996
+      </td>
+      <td>
+       Run time : 105
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 55916
+      </td>
+      <td>
+       Revenue USD : 35.81
+      </td>
+      <td>
+       Director : Scott Hicks
+      </td>
+      <td>
+       Cast : Geoffrey Rush, Armin Mueller-Stahl, Justin Braine, Sonia Todd
+      </td>
+      <td>
+       Summary : Pianist David Helfgott, driven by his father and teachers, has a breakdown. Years later he returns to the piano, to popular if not critical acclaim.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Red Violin
+      </td>
+      <td>
+       Year : 1998
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 34126
+      </td>
+      <td>
+       Revenue USD : 9.47
+      </td>
+      <td>
+       Director : François Girard
+      </td>
+      <td>
+       Cast : Carlo Cecchi, Jean-Luc Bideau, Christoph Koncz, Jason Flemyng
+      </td>
+      <td>
+       Summary : A red-colored violin inspires passion, making its way through three centuries over several owners and countries, eventually ending up at an auction where it may find a new owner.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Piano Teacher
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 131
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 69334
+      </td>
+      <td>
+       Revenue USD : 1.9
+      </td>
+      <td>
+       Director : Michael Haneke
+      </td>
+      <td>
+       Cast : Isabelle Huppert, Annie Girardot, Benoît Magimel, Susanne Lothar
+      </td>
+      <td>
+       Summary : A young man romantically pursues his masochistic piano teacher.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

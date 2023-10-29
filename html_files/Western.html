@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : The Good, the Bad and the Ugly
+      </td>
+      <td>
+       Year : 1966
+      </td>
+      <td>
+       Run time : 178
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 792823
+      </td>
+      <td>
+       Revenue USD : 6.1
+      </td>
+      <td>
+       Director : Sergio Leone
+      </td>
+      <td>
+       Cast : Clint Eastwood, Eli Wallach, Lee Van Cleef, Aldo Giuffrè
+      </td>
+      <td>
+       Summary : A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Django Unchained
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 165
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1644040
+      </td>
+      <td>
+       Revenue USD : 162.81
+      </td>
+      <td>
+       Director : Quentin Tarantino
+      </td>
+      <td>
+       Cast : Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington
+      </td>
+      <td>
+       Summary : With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Once Upon a Time in the West
+      </td>
+      <td>
+       Year : 1968
+      </td>
+      <td>
+       Run time : 165
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 342865
+      </td>
+      <td>
+       Revenue USD : 5.32
+      </td>
+      <td>
+       Director : Sergio Leone
+      </td>
+      <td>
+       Cast : Henry Fonda, Charles Bronson, Claudia Cardinale, Jason Robards
+      </td>
+      <td>
+       Summary : A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Unforgiven
+      </td>
+      <td>
+       Year : 1992
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 427792
+      </td>
+      <td>
+       Revenue USD : 101.16
+      </td>
+      <td>
+       Director : Clint Eastwood
+      </td>
+      <td>
+       Cast : Clint Eastwood, Gene Hackman, Morgan Freeman, Richard Harris
+      </td>
+      <td>
+       Summary : Retired Old West gunslinger William Munny reluctantly takes on one last job, with the help of his old partner Ned Logan and a young man, The "Schofield Kid."
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : For a Few Dollars More
+      </td>
+      <td>
+       Year : 1965
+      </td>
+      <td>
+       Run time : 132
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 268242
+      </td>
+      <td>
+       Revenue USD : 15.0
+      </td>
+      <td>
+       Director : Sergio Leone
+      </td>
+      <td>
+       Cast : Clint Eastwood, Lee Van Cleef, Gian Maria Volontè, Mara Krupp
+      </td>
+      <td>
+       Summary : Two bounty hunters with the same intentions team up to track down an escaped Mexican outlaw.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Treasure of the Sierra Madre
+      </td>
+      <td>
+       Year : 1948
+      </td>
+      <td>
+       Run time : 126
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 130165
+      </td>
+      <td>
+       Revenue USD : 5.01
+      </td>
+      <td>
+       Director : John Huston
+      </td>
+      <td>
+       Cast : Humphrey Bogart, Walter Huston, Tim Holt, Bruce Bennett
+      </td>
+      <td>
+       Summary : Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Killers of the Flower Moon
+      </td>
+      <td>
+       Year : 2023
+      </td>
+      <td>
+       Run time : 206
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 53692
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Martin Scorsese
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Robert De Niro, Lily Gladstone, Jesse Plemons
+      </td>
+      <td>
+       Summary : When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Man Who Shot Liberty Valance
+      </td>
+      <td>
+       Year : 1962
+      </td>
+      <td>
+       Run time : 123
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 80443
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : John Ford
+      </td>
+      <td>
+       Cast : James Stewart, John Wayne, Vera Miles, Lee Marvin
+      </td>
+      <td>
+       Summary : A senator returns to a Western town for the funeral of an old friend and tells the story of his origins.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Gold Rush
+      </td>
+      <td>
+       Year : 1925
+      </td>
+      <td>
+       Run time : 95
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 116227
+      </td>
+      <td>
+       Revenue USD : 5.45
+      </td>
+      <td>
+       Director : Charles Chaplin
+      </td>
+      <td>
+       Cast : Charles Chaplin, Mack Swain, Tom Murray, Henry Bergman
+      </td>
+      <td>
+       Summary : A prospector goes to the Klondike during the 1890s gold rush in hopes of making his fortune, and is smitten with a girl he sees in a dance hall.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sholay
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 162
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 57879
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ramesh Sippy
+      </td>
+      <td>
+       Cast : Sanjeev Kumar, Dharmendra, Amitabh Bachchan, Amjad Khan
+      </td>
+      <td>
+       Summary : After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dances with Wolves
+      </td>
+      <td>
+       Year : 1990
+      </td>
+      <td>
+       Run time : 181
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 282880
+      </td>
+      <td>
+       Revenue USD : 184.21
+      </td>
+      <td>
+       Director : Kevin Costner
+      </td>
+      <td>
+       Cast : Kevin Costner, Mary McDonnell, Graham Greene, Rodney A. Grant
+      </td>
+      <td>
+       Summary : Lieutenant John Dunbar, assigned to a remote western Civil War outpost, finds himself engaging with a neighbouring Sioux settlement, causing him to question his own purpose.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Revenant
+      </td>
+      <td>
+       Year : 2015
+      </td>
+      <td>
+       Run time : 156
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 848121
+      </td>
+      <td>
+       Revenue USD : 183.64
+      </td>
+      <td>
+       Director : Alejandro G. Iñárritu
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Tom Hardy, Will Poulter, Domhnall Gleeson
+      </td>
+      <td>
+       Summary : A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Butch Cassidy and the Sundance Kid
+      </td>
+      <td>
+       Year : 1969
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 223494
+      </td>
+      <td>
+       Revenue USD : 102.31
+      </td>
+      <td>
+       Director : George Roy Hill
+      </td>
+      <td>
+       Cast : Paul Newman, Robert Redford, Katharine Ross, Strother Martin
+      </td>
+      <td>
+       Summary : In 1890s Wyoming, Butch Cassidy and The Sundance Kid lead a band of outlaws. When a train robbery goes wrong, they find themselves on the run with a posse hard on their heels. After considering their options, they escape to South America.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Rio Bravo
+      </td>
+      <td>
+       Year : 1959
+      </td>
+      <td>
+       Run time : 141
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 66575
+      </td>
+      <td>
+       Revenue USD : 12.54
+      </td>
+      <td>
+       Director : Howard Hawks
+      </td>
+      <td>
+       Cast : John Wayne, Dean Martin, Ricky Nelson, Angie Dickinson
+      </td>
+      <td>
+       Summary : A small-town sheriff in the American West enlists the help of a disabled man, a drunk, and a young gunfighter in his efforts to hold in jail the brother of the local bad guy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : High Noon
+      </td>
+      <td>
+       Year : 1952
+      </td>
+      <td>
+       Run time : 85
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 108429
+      </td>
+      <td>
+       Revenue USD : 9.45
+      </td>
+      <td>
+       Director : Fred Zinnemann
+      </td>
+      <td>
+       Cast : Gary Cooper, Grace Kelly, Thomas Mitchell, Lloyd Bridges
+      </td>
+      <td>
+       Summary : A town Marshal, despite the disagreements of his newlywed bride and the townspeople around him, must face a gang of deadly killers alone at "high noon" when the gang leader, an outlaw he "sent up" years ago, arrives on the noon train.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : A Fistful of Dollars
+      </td>
+      <td>
+       Year : 1964
+      </td>
+      <td>
+       Run time : 99
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 227389
+      </td>
+      <td>
+       Revenue USD : 14.5
+      </td>
+      <td>
+       Director : Sergio Leone
+      </td>
+      <td>
+       Cast : Clint Eastwood, Gian Maria Volontè, Marianne Koch, Wolfgang Lukschy
+      </td>
+      <td>
+       Summary : A wandering gunfighter plays two rival families against each other in a town torn apart by greed, pride, and revenge.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Wild Bunch
+      </td>
+      <td>
+       Year : 1969
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 7.9
+      </td>
+      <td>
+       Votes : 88836
+      </td>
+      <td>
+       Revenue USD : 12.06
+      </td>
+      <td>
+       Director : Sam Peckinpah
+      </td>
+      <td>
+       Cast : William Holden, Ernest Borgnine, Robert Ryan, Edmond O'Brien
+      </td>
+      <td>
+       Summary : An aging group of outlaws look for one last big score as the "traditional" American West is disappearing around them.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Hateful Eight
+      </td>
+      <td>
+       Year : 2015
+      </td>
+      <td>
+       Run time : 168
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 639943
+      </td>
+      <td>
+       Revenue USD : 54.12
+      </td>
+      <td>
+       Director : Quentin Tarantino
+      </td>
+      <td>
+       Cast : Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins
+      </td>
+      <td>
+       Summary : In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Tombstone
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 160507
+      </td>
+      <td>
+       Revenue USD : 56.51
+      </td>
+      <td>
+       Director : George P. Cosmatos, Kevin Jarre
+      </td>
+      <td>
+       Cast : Kurt Russell, Val Kilmer, Sam Elliott, Bill Paxton
+      </td>
+      <td>
+       Summary : A successful lawman's plans to retire anonymously in Tombstone, Arizona are disrupted by the kind of outlaws he was famous for eliminating.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Outlaw Josey Wales
+      </td>
+      <td>
+       Year : 1976
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 78072
+      </td>
+      <td>
+       Revenue USD : 31.8
+      </td>
+      <td>
+       Director : Clint Eastwood
+      </td>
+      <td>
+       Cast : Clint Eastwood, Sondra Locke, Chief Dan George, Bill McKinney
+      </td>
+      <td>
+       Summary : Missouri farmer Josey Wales joins a Confederate guerrilla unit and winds up on the run from the Union soldiers who murdered his family.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Red River
+      </td>
+      <td>
+       Year : 1948
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 33377
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Howard Hawks, Arthur Rosson
+      </td>
+      <td>
+       Cast : John Wayne, Montgomery Clift, Joanne Dru, Walter Brennan
+      </td>
+      <td>
+       Summary : Dunson leads a cattle drive, the culmination of over 14 years of work, to its destination in Missouri. But his tyrannical behavior along the way causes a mutiny, led by his adopted son.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Searchers
+      </td>
+      <td>
+       Year : 1956
+      </td>
+      <td>
+       Run time : 119
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 94285
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : John Ford
+      </td>
+      <td>
+       Cast : John Wayne, Jeffrey Hunter, Vera Miles, Ward Bond
+      </td>
+      <td>
+       Summary : An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Stagecoach
+      </td>
+      <td>
+       Year : 1939
+      </td>
+      <td>
+       Run time : 96
+      </td>
+      <td>
+       IMDB rating : 7.8
+      </td>
+      <td>
+       Votes : 52416
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : John Ford
+      </td>
+      <td>
+       Cast : John Wayne, Claire Trevor, Andy Devine, John Carradine
+      </td>
+      <td>
+       Summary : A group of people traveling on a stagecoach find their journey complicated by the threat of Geronimo and learn something about each other in the process.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Wind River
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 107
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 270367
+      </td>
+      <td>
+       Revenue USD : 33.8
+      </td>
+      <td>
+       Director : Taylor Sheridan
+      </td>
+      <td>
+       Cast : Elizabeth Olsen, Jeremy Renner, Graham Greene, Kelsey Asbille
+      </td>
+      <td>
+       Summary : A wildlife officer, who is haunted by a tragedy that happened because of him, teams up with an FBI agent in solving a murder of a young woman on a Wyoming Native American reservation and hopes to get redemption from his past regrets.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Blazing Saddles
+      </td>
+      <td>
+       Year : 1974
+      </td>
+      <td>
+       Run time : 93
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 147820
+      </td>
+      <td>
+       Revenue USD : 119.5
+      </td>
+      <td>
+       Director : Mel Brooks
+      </td>
+      <td>
+       Cast : Cleavon Little, Gene Wilder, Slim Pickens, Harvey Korman
+      </td>
+      <td>
+       Summary : In order to ruin a western town, a corrupt politician appoints a black Sheriff, who promptly becomes his most formidable adversary.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Magnificent Seven
+      </td>
+      <td>
+       Year : 1960
+      </td>
+      <td>
+       Run time : 128
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 100200
+      </td>
+      <td>
+       Revenue USD : 4.91
+      </td>
+      <td>
+       Director : John Sturges
+      </td>
+      <td>
+       Cast : Yul Brynner, Steve McQueen, Charles Bronson, Eli Wallach
+      </td>
+      <td>
+       Summary : Seven gunfighters are hired by Mexican peasants to liberate their village from oppressive bandits.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 3:10 to Yuma
+      </td>
+      <td>
+       Year : 2007
+      </td>
+      <td>
+       Run time : 122
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 325661
+      </td>
+      <td>
+       Revenue USD : 53.61
+      </td>
+      <td>
+       Director : James Mangold
+      </td>
+      <td>
+       Cast : Russell Crowe, Christian Bale, Ben Foster, Logan Lerman
+      </td>
+      <td>
+       Summary : A small-time rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : My Darling Clementine
+      </td>
+      <td>
+       Year : 1946
+      </td>
+      <td>
+       Run time : 97
+      </td>
+      <td>
+       IMDB rating : 7.7
+      </td>
+      <td>
+       Votes : 25101
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : John Ford
+      </td>
+      <td>
+       Cast : Henry Fonda, Linda Darnell, Victor Mature, Cathy Downs
+      </td>
+      <td>
+       Summary : After their cattle are stolen and their brother murdered, the Earp brothers have a score to settle with the Clanton family.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hell or High Water
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 102
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 244828
+      </td>
+      <td>
+       Revenue USD : 27.01
+      </td>
+      <td>
+       Director : David Mackenzie
+      </td>
+      <td>
+       Cast : Chris Pine, Ben Foster, Jeff Bridges, Gil Birmingham
+      </td>
+      <td>
+       Summary : Toby is a divorced father who's trying to make a better life. His brother is an ex-con with a short temper and a loose trigger finger. Together, they plan a series of heists against the bank that's about to foreclose on their family ranch.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : True Grit
+      </td>
+      <td>
+       Year : 2010
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 351943
+      </td>
+      <td>
+       Revenue USD : 171.24
+      </td>
+      <td>
+       Director : Ethan Coen, Joel Coen
+      </td>
+      <td>
+       Cast : Jeff Bridges, Matt Damon, Hailee Steinfeld, Josh Brolin
+      </td>
+      <td>
+       Summary : A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Giant
+      </td>
+      <td>
+       Year : 1956
+      </td>
+      <td>
+       Run time : 201
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 41401
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : George Stevens
+      </td>
+      <td>
+       Cast : Elizabeth Taylor, Rock Hudson, James Dean, Carroll Baker
+      </td>
+      <td>
+       Summary : Sprawling epic covering the life of a Texas cattle rancher and his family and associates.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Jeremiah Johnson
+      </td>
+      <td>
+       Year : 1972
+      </td>
+      <td>
+       Run time : 108
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 34125
+      </td>
+      <td>
+       Revenue USD : 47.74
+      </td>
+      <td>
+       Director : Sydney Pollack
+      </td>
+      <td>
+       Cast : Robert Redford, Will Geer, Delle Bolton, Josh Albee
+      </td>
+      <td>
+       Summary : A mountain man who wishes to live the life of a hermit becomes the unwilling object of a long vendetta by the Crow tribe and proves to be a match for their warriors in single combat on the early frontier.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Shane
+      </td>
+      <td>
+       Year : 1953
+      </td>
+      <td>
+       Run time : 118
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 43213
+      </td>
+      <td>
+       Revenue USD : 20.0
+      </td>
+      <td>
+       Director : George Stevens
+      </td>
+      <td>
+       Cast : Alan Ladd, Jean Arthur, Van Heflin, Brandon De Wilde
+      </td>
+      <td>
+       Summary : A weary gunfighter in 1880s Wyoming begins to envision a quieter life after befriending a homestead family with a young son who idolizes him, but a smoldering range war forces him to act.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Shootist
+      </td>
+      <td>
+       Year : 1976
+      </td>
+      <td>
+       Run time : 100
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 26200
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Don Siegel
+      </td>
+      <td>
+       Cast : John Wayne, Lauren Bacall, Ron Howard, James Stewart
+      </td>
+      <td>
+       Summary : A dying gunfighter spends his last days looking for a way to die with a minimum of pain and a maximum of dignity.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Duck, You Sucker!
+      </td>
+      <td>
+       Year : 1971
+      </td>
+      <td>
+       Run time : 138
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 36640
+      </td>
+      <td>
+       Revenue USD : 0.7
+      </td>
+      <td>
+       Director : Sergio Leone
+      </td>
+      <td>
+       Cast : Rod Steiger, James Coburn, Romolo Valli, Maria Monti
+      </td>
+      <td>
+       Summary : A low-life bandit and an I.R.A. explosives expert rebel against the government and become heroes of the Mexican Revolution.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : McCabe &amp; Mrs. Miller
+      </td>
+      <td>
+       Year : 1971
+      </td>
+      <td>
+       Run time : 120
+      </td>
+      <td>
+       IMDB rating : 7.6
+      </td>
+      <td>
+       Votes : 26943
+      </td>
+      <td>
+       Revenue USD : 8.2
+      </td>
+      <td>
+       Director : Robert Altman
+      </td>
+      <td>
+       Cast : Warren Beatty, Julie Christie, Rene Auberjonois, William Devane
+      </td>
+      <td>
+       Summary : A gambler and a prostitute become business partners in a remote Old West mining town, and their enterprise thrives until a large corporation arrives on the scene.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Legends of the Fall
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 177657
+      </td>
+      <td>
+       Revenue USD : 66.64
+      </td>
+      <td>
+       Director : Edward Zwick
+      </td>
+      <td>
+       Cast : Brad Pitt, Anthony Hopkins, Aidan Quinn, Julia Ormond
+      </td>
+      <td>
+       Summary : In the early 1900s, three brothers and their father living in the remote wilderness of Montana are affected by betrayal, history, love, nature, and war.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Assassination of Jesse James by the Coward Robert Ford
+      </td>
+      <td>
+       Year : 2007
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 189821
+      </td>
+      <td>
+       Revenue USD : 3.9
+      </td>
+      <td>
+       Director : Andrew Dominik
+      </td>
+      <td>
+       Cast : Brad Pitt, Casey Affleck, Sam Shepard, Mary-Louise Parker
+      </td>
+      <td>
+       Summary : Robert Ford, who has idolized Jesse James since childhood, tries hard to join the resurgent gang of the Missouri outlaw, but gradually becomes resentful of the bandit leader.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Of Mice and Men
+      </td>
+      <td>
+       Year : 1992
+      </td>
+      <td>
+       Run time : 115
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 45981
+      </td>
+      <td>
+       Revenue USD : 5.1
+      </td>
+      <td>
+       Director : Gary Sinise
+      </td>
+      <td>
+       Cast : John Malkovich, Gary Sinise, Ray Walston, Casey Siemaszko
+      </td>
+      <td>
+       Summary : A nomadic farm worker looks after his dimwitted, gentle-giant friend during the Great Depression.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : El Dorado
+      </td>
+      <td>
+       Year : 1966
+      </td>
+      <td>
+       Run time : 126
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 29463
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Howard Hawks
+      </td>
+      <td>
+       Cast : John Wayne, Robert Mitchum, James Caan, Charlene Holt
+      </td>
+      <td>
+       Summary : Cole Thornton, a gunfighter for hire, joins forces with an old friend, Sheriff J.P. Hara. Together with an old Indian fighter and a gambler, they help a rancher and his family fight a rival rancher that is trying to steal their water.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dead Man
+      </td>
+      <td>
+       Year : 1995
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 101452
+      </td>
+      <td>
+       Revenue USD : 1.04
+      </td>
+      <td>
+       Director : Jim Jarmusch
+      </td>
+      <td>
+       Cast : Johnny Depp, Gary Farmer, Crispin Glover, Lance Henriksen
+      </td>
+      <td>
+       Summary : On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Little Big Man
+      </td>
+      <td>
+       Year : 1970
+      </td>
+      <td>
+       Run time : 139
+      </td>
+      <td>
+       IMDB rating : 7.5
+      </td>
+      <td>
+       Votes : 37169
+      </td>
+      <td>
+       Revenue USD : 31.56
+      </td>
+      <td>
+       Director : Arthur Penn
+      </td>
+      <td>
+       Cast : Dustin Hoffman, Faye Dunaway, Chief Dan George, Martin Balsam
+      </td>
+      <td>
+       Summary : Jack Crabb, looking back from extreme old age, tells of his life being raised by Native Americans and fighting with General Custer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Back to the Future Part III
+      </td>
+      <td>
+       Year : 1990
+      </td>
+      <td>
+       Run time : 118
+      </td>
+      <td>
+       IMDB rating : 7.4
+      </td>
+      <td>
+       Votes : 470092
+      </td>
+      <td>
+       Revenue USD : 87.73
+      </td>
+      <td>
+       Director : Robert Zemeckis
+      </td>
+      <td>
+       Cast : Michael J. Fox, Christopher Lloyd, Mary Steenburgen, Tom Wilson
+      </td>
+      <td>
+       Summary : Stranded in 1955, Marty McFly learns about the death of Doc Brown in 1885 and must travel back in time to save him. With no fuel readily available for the DeLorean, the two must figure how to escape the Old West before Emmett is murdered.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Lone Star
+      </td>
+      <td>
+       Year : 1996
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 7.4
+      </td>
+      <td>
+       Votes : 31186
+      </td>
+      <td>
+       Revenue USD : 13.27
+      </td>
+      <td>
+       Director : John Sayles
+      </td>
+      <td>
+       Cast : Chris Cooper, Elizabeth Peña, Stephen Mendillo, Stephen J. Lang
+      </td>
+      <td>
+       Summary : When the skeleton of his murdered predecessor is found, Sheriff Sam Deeds unearths many other long-buried secrets in his Texas border town.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Open Range
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 139
+      </td>
+      <td>
+       IMDB rating : 7.4
+      </td>
+      <td>
+       Votes : 76714
+      </td>
+      <td>
+       Revenue USD : 58.33
+      </td>
+      <td>
+       Director : Kevin Costner
+      </td>
+      <td>
+       Cast : Kevin Costner, Robert Duvall, Diego Luna, Abraham Benrubi
+      </td>
+      <td>
+       Summary : A former gunslinger is forced to take up arms again when he and his cattle crew are threatened by a corrupt lawman.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : True Grit
+      </td>
+      <td>
+       Year : 1969
+      </td>
+      <td>
+       Run time : 128
+      </td>
+      <td>
+       IMDB rating : 7.4
+      </td>
+      <td>
+       Votes : 50262
+      </td>
+      <td>
+       Revenue USD : 31.13
+      </td>
+      <td>
+       Director : Henry Hathaway
+      </td>
+      <td>
+       Cast : John Wayne, Kim Darby, Glen Campbell, Jeremy Slate
+      </td>
+      <td>
+       Summary : A drunken, hard-nosed U.S. Marshal and a Texas Ranger help a stubborn teenager track down her father's murderer in Indian Territory.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : High Plains Drifter
+      </td>
+      <td>
+       Year : 1973
+      </td>
+      <td>
+       Run time : 105
+      </td>
+      <td>
+       IMDB rating : 7.4
+      </td>
+      <td>
+       Votes : 62137
+      </td>
+      <td>
+       Revenue USD : 15.7
+      </td>
+      <td>
+       Director : Clint Eastwood
+      </td>
+      <td>
+       Cast : Clint Eastwood, Verna Bloom, Marianna Hill, Mitchell Ryan
+      </td>
+      <td>
+       Summary : A gun-fighting stranger comes to the small settlement of Lago and is hired to bring the townsfolk together in an attempt to hold off three outlaws who are on their way.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Yahsi Bati - The Ottoman Cowboys
+      </td>
+      <td>
+       Year : 2009
+      </td>
+      <td>
+       Run time : 112
+      </td>
+      <td>
+       IMDB rating : 7.4
+      </td>
+      <td>
+       Votes : 37487
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ömer Faruk Sorak
+      </td>
+      <td>
+       Cast : Cem Yilmaz, Ozan Güven, Demet Evgar, Zafer Algöz
+      </td>
+      <td>
+       Summary : In 1881, two Ottoman Secret Agents travel to the USA, at the Sultan's request, to deliver a valuable diamond as a gift for the President.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Ballad of Buster Scruggs
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 7.3
+      </td>
+      <td>
+       Votes : 161819
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ethan Coen, Joel Coen
+      </td>
+      <td>
+       Cast : Tim Blake Nelson, Willie Watson, Clancy Brown, Danny McCarthy
+      </td>
+      <td>
+       Summary : Six tales of life and violence in the Old West, following a singing gunslinger, a bank robber, a traveling impresario, an elderly prospector, a wagon train, and a perverse pair of bounty hunters.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Old Henry
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 99
+      </td>
+      <td>
+       IMDB rating : 7.3
+      </td>
+      <td>
+       Votes : 33393
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Potsy Ponciroli
+      </td>
+      <td>
+       Cast : Tim Blake Nelson, Scott Haze, Gavin Lewis, Trace Adkins
+      </td>
+      <td>
+       Summary : An action western about a farmer who takes in an injured man with a satchel of cash. When a posse comes for the money, he must decide who to trust. Defending a siege, he reveals a gunslinging talent calling his true identity into question.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

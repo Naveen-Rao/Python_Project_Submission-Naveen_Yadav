@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : The Dark Knight
+      </td>
+      <td>
+       Year : 2008
+      </td>
+      <td>
+       Run time : 152
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 2794638
+      </td>
+      <td>
+       Revenue USD : 534.86
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine
+      </td>
+      <td>
+       Summary : When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lord of the Rings: The Return of the King
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 201
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 1926112
+      </td>
+      <td>
+       Revenue USD : 377.85
+      </td>
+      <td>
+       Director : Peter Jackson
+      </td>
+      <td>
+       Cast : Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom
+      </td>
+      <td>
+       Summary : Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Inception
+      </td>
+      <td>
+       Year : 2010
+      </td>
+      <td>
+       Run time : 148
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 2480407
+      </td>
+      <td>
+       Revenue USD : 292.58
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Ken Watanabe
+      </td>
+      <td>
+       Summary : A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lord of the Rings: The Fellowship of the Ring
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 178
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 1953681
+      </td>
+      <td>
+       Revenue USD : 315.54
+      </td>
+      <td>
+       Director : Peter Jackson
+      </td>
+      <td>
+       Cast : Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean
+      </td>
+      <td>
+       Summary : A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Lord of the Rings: The Two Towers
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 179
+      </td>
+      <td>
+       IMDB rating : 8.8
+      </td>
+      <td>
+       Votes : 1737331
+      </td>
+      <td>
+       Revenue USD : 342.55
+      </td>
+      <td>
+       Director : Peter Jackson
+      </td>
+      <td>
+       Cast : Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom
+      </td>
+      <td>
+       Summary : While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spider-Man: Across the Spider-Verse
+      </td>
+      <td>
+       Year : 2023
+      </td>
+      <td>
+       Run time : 140
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 282252
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Joaquim Dos Santos, Kemp Powers, Justin K. Thompson
+      </td>
+      <td>
+       Cast : Shameik Moore, Hailee Steinfeld, Brian Tyree Henry, Luna Lauren Velez
+      </td>
+      <td>
+       Summary : Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Matrix
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 136
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1999957
+      </td>
+      <td>
+       Revenue USD : 171.48
+      </td>
+      <td>
+       Director : Lana Wachowski, Lilly Wachowski
+      </td>
+      <td>
+       Cast : Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+      </td>
+      <td>
+       Summary : When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Star Wars: Episode V - The Empire Strikes Back
+      </td>
+      <td>
+       Year : 1980
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1347971
+      </td>
+      <td>
+       Revenue USD : 290.48
+      </td>
+      <td>
+       Director : Irvin Kershner
+      </td>
+      <td>
+       Cast : Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams
+      </td>
+      <td>
+       Summary : After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Soorarai Pottru
+      </td>
+      <td>
+       Year : 2020
+      </td>
+      <td>
+       Run time : 153
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 121374
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Sudha Kongara
+      </td>
+      <td>
+       Cast : Suriya, Paresh Rawal, Aparna Balamurali, Urvashi
+      </td>
+      <td>
+       Summary : Nedumaaran Rajangam "Maara" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Star Wars: Episode IV - A New Hope
+      </td>
+      <td>
+       Year : 1977
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1419263
+      </td>
+      <td>
+       Revenue USD : 322.74
+      </td>
+      <td>
+       Director : George Lucas
+      </td>
+      <td>
+       Cast : Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness
+      </td>
+      <td>
+       Summary : Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Terminator 2: Judgment Day
+      </td>
+      <td>
+       Year : 1991
+      </td>
+      <td>
+       Run time : 137
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 1146769
+      </td>
+      <td>
+       Revenue USD : 204.84
+      </td>
+      <td>
+       Director : James Cameron
+      </td>
+      <td>
+       Cast : Arnold Schwarzenegger, Linda Hamilton, Edward Furlong, Robert Patrick
+      </td>
+      <td>
+       Summary : A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Seven Samurai
+      </td>
+      <td>
+       Year : 1954
+      </td>
+      <td>
+       Run time : 207
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 359475
+      </td>
+      <td>
+       Revenue USD : 0.27
+      </td>
+      <td>
+       Director : Akira Kurosawa
+      </td>
+      <td>
+       Cast : Toshirô Mifune, Takashi Shimura, Keiko Tsushima, Yukiko Shimazaki
+      </td>
+      <td>
+       Summary : Farmers from a village exploited by bandits hire a veteran samurai for protection, who gathers six other samurai to join him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Harakiri
+      </td>
+      <td>
+       Year : 1962
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 64573
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Masaki Kobayashi
+      </td>
+      <td>
+       Cast : Tatsuya Nakadai, Akira Ishihama, Shima Iwashita, Tetsurô Tanba
+      </td>
+      <td>
+       Summary : When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sita Ramam
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 163
+      </td>
+      <td>
+       IMDB rating : 8.6
+      </td>
+      <td>
+       Votes : 63756
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Hanu Raghavapudi
+      </td>
+      <td>
+       Cast : Dulquer Salmaan, Mrunal Thakur, Rashmika Mandanna, Sumanth
+      </td>
+      <td>
+       Summary : An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir,After he gets caught in jail, he sends a letter to Sita which won't reach her.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Gladiator
+      </td>
+      <td>
+       Year : 2000
+      </td>
+      <td>
+       Run time : 155
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1571308
+      </td>
+      <td>
+       Revenue USD : 187.71
+      </td>
+      <td>
+       Director : Ridley Scott
+      </td>
+      <td>
+       Cast : Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed
+      </td>
+      <td>
+       Summary : A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Léon: The Professional
+      </td>
+      <td>
+       Year : 1994
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 1214645
+      </td>
+      <td>
+       Revenue USD : 19.5
+      </td>
+      <td>
+       Director : Luc Besson
+      </td>
+      <td>
+       Cast : Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello
+      </td>
+      <td>
+       Summary : 12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Avengers: Endgame
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 181
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1221940
+      </td>
+      <td>
+       Revenue USD : 858.37
+      </td>
+      <td>
+       Director : Anthony Russo, Joe Russo
+      </td>
+      <td>
+       Cast : Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth
+      </td>
+      <td>
+       Summary : After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Dark Knight Rises
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 164
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1783780
+      </td>
+      <td>
+       Revenue USD : 448.14
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman
+      </td>
+      <td>
+       Summary : Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Oldboy
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 120
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 614816
+      </td>
+      <td>
+       Revenue USD : 0.71
+      </td>
+      <td>
+       Director : Park Chan-wook
+      </td>
+      <td>
+       Cast : Choi Min-sik, Yoo Ji-tae, Kang Hye-jeong, Kim Byeong-Ok
+      </td>
+      <td>
+       Summary : After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Aliens
+      </td>
+      <td>
+       Year : 1986
+      </td>
+      <td>
+       Run time : 137
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 746294
+      </td>
+      <td>
+       Revenue USD : 85.16
+      </td>
+      <td>
+       Director : James Cameron
+      </td>
+      <td>
+       Cast : Sigourney Weaver, Michael Biehn, Carrie Henn, Paul Reiser
+      </td>
+      <td>
+       Summary : Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spider-Man: Into the Spider-Verse
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 636019
+      </td>
+      <td>
+       Revenue USD : 190.24
+      </td>
+      <td>
+       Director : Bob Persichetti, Peter Ramsey, Rodney Rothman
+      </td>
+      <td>
+       Cast : Shameik Moore, Jake Johnson, Hailee Steinfeld, Mahershala Ali
+      </td>
+      <td>
+       Summary : Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Avengers: Infinity War
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 149
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1162456
+      </td>
+      <td>
+       Revenue USD : 678.82
+      </td>
+      <td>
+       Director : Anthony Russo, Joe Russo
+      </td>
+      <td>
+       Cast : Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans
+      </td>
+      <td>
+       Summary : The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Raiders of the Lost Ark
+      </td>
+      <td>
+       Year : 1981
+      </td>
+      <td>
+       Run time : 115
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 1016777
+      </td>
+      <td>
+       Revenue USD : 248.16
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Harrison Ford, Karen Allen, Paul Freeman, John Rhys-Davies
+      </td>
+      <td>
+       Summary : In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Kaithi
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 145
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 39240
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Lokesh Kanagaraj
+      </td>
+      <td>
+       Cast : Karthi, Narain, Arjun Das, George Maryan
+      </td>
+      <td>
+       Summary : Dilli, an ex-convict, endeavours to meet his daughter for the first time after leaving prison. However, his attempts are interrupted due to a drug raid planned by Inspector Bejoy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Asuran
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 141
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 32332
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Vetrimaaran
+      </td>
+      <td>
+       Cast : Dhanush, Manju Warrier, Prakash Raj, Pasupathy
+      </td>
+      <td>
+       Summary : The teenage son of a farmer from an underprivileged caste kills a rich, upper caste landlord. How the pacifist farmer saves his hot-blooded son is the rest of the story.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Top Gun: Maverick
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 637316
+      </td>
+      <td>
+       Revenue USD : 718.73
+      </td>
+      <td>
+       Director : Joseph Kosinski
+      </td>
+      <td>
+       Cast : Tom Cruise, Jennifer Connelly, Miles Teller, Val Kilmer
+      </td>
+      <td>
+       Summary : After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Heat
+      </td>
+      <td>
+       Year : 1995
+      </td>
+      <td>
+       Run time : 170
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 697159
+      </td>
+      <td>
+       Revenue USD : 67.44
+      </td>
+      <td>
+       Director : Michael Mann
+      </td>
+      <td>
+       Cast : Al Pacino, Robert De Niro, Val Kilmer, Jon Voight
+      </td>
+      <td>
+       Summary : A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a clue at their latest heist.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Star Wars: Episode VI - Return of the Jedi
+      </td>
+      <td>
+       Year : 1983
+      </td>
+      <td>
+       Run time : 131
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 1097690
+      </td>
+      <td>
+       Revenue USD : 309.13
+      </td>
+      <td>
+       Director : Richard Marquand
+      </td>
+      <td>
+       Cast : Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams
+      </td>
+      <td>
+       Summary : After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the second Death Star, while Luke struggles to help Darth Vader back from the dark side.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : North by Northwest
+      </td>
+      <td>
+       Year : 1959
+      </td>
+      <td>
+       Run time : 136
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 339847
+      </td>
+      <td>
+       Revenue USD : 13.28
+      </td>
+      <td>
+       Director : Alfred Hitchcock
+      </td>
+      <td>
+       Cast : Cary Grant, Eva Marie Saint, James Mason, Jessie Royce Landis
+      </td>
+      <td>
+       Summary : A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Princess Mononoke
+      </td>
+      <td>
+       Year : 1997
+      </td>
+      <td>
+       Run time : 134
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 418200
+      </td>
+      <td>
+       Revenue USD : 2.38
+      </td>
+      <td>
+       Director : Hayao Miyazaki
+      </td>
+      <td>
+       Cast : Yôji Matsuda, Yuriko Ishida, Yûko Tanaka, Billy Crudup
+      </td>
+      <td>
+       Summary : On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Vikram
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 175
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 68818
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Lokesh Kanagaraj
+      </td>
+      <td>
+       Cast : Kamal Haasan, Vijay Sethupathi, Fahadh Faasil, Narain
+      </td>
+      <td>
+       Summary : A special investigator assigned a case of serial killings discovers the case is not what it seems to be, and leading down this path is only going to end in a war between everyone involved.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dangal
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 161
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 202932
+      </td>
+      <td>
+       Revenue USD : 12.39
+      </td>
+      <td>
+       Director : Nitesh Tiwari
+      </td>
+      <td>
+       Cast : Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh, Sanya Malhotra
+      </td>
+      <td>
+       Summary : Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : K.G.F: Chapter 2
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 166
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 143829
+      </td>
+      <td>
+       Revenue USD : 6.6
+      </td>
+      <td>
+       Director : Prashanth Neel
+      </td>
+      <td>
+       Cast : Yash, Sanjay Dutt, Raveena Tandon, Srinidhi Shetty
+      </td>
+      <td>
+       Summary : In the blood-soaked Kolar Gold Fields, Rocky's name strikes fear into his foes. While his allies look up to him, the government sees him as a threat to law and order. Rocky must battle threats from all sides for unchallenged supremacy.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Shershaah
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 126897
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Vishnuvardhan
+      </td>
+      <td>
+       Cast : Sidharth Malhotra, Kiara Advani, Shiv Panditt, Pranay Pachauri
+      </td>
+      <td>
+       Summary : Shershaah is the story of PVC awardee Indian soldier Capt. Vikram Batra, whose bravery and unflinching courage in chasing the Pakistani soldiers out of Indian territory contributed immensely in India finally winning the Kargil War in 1999.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Raatchasan
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 170
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 48650
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Ram Kumar
+      </td>
+      <td>
+       Cast : Vishnu Vishal, Amala Paul, Radha Ravi, Sangili Murugan
+      </td>
+      <td>
+       Summary : A sub-inspector sets out in pursuit of a mysterious serial killer who targets teen school girls and murders them brutally.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spider-Man: No Way Home
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 148
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 838870
+      </td>
+      <td>
+       Revenue USD : 804.75
+      </td>
+      <td>
+       Director : Jon Watts
+      </td>
+      <td>
+       Cast : Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon
+      </td>
+      <td>
+       Summary : With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Jurassic Park
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 127
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1039477
+      </td>
+      <td>
+       Revenue USD : 402.45
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough
+      </td>
+      <td>
+       Summary : A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Batman Begins
+      </td>
+      <td>
+       Year : 2005
+      </td>
+      <td>
+       Run time : 140
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1541051
+      </td>
+      <td>
+       Revenue USD : 206.85
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Christian Bale, Michael Caine, Ken Watanabe, Liam Neeson
+      </td>
+      <td>
+       Summary : After witnessing his parents' death, Bruce learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Die Hard
+      </td>
+      <td>
+       Year : 1988
+      </td>
+      <td>
+       Run time : 132
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 915856
+      </td>
+      <td>
+       Revenue USD : 83.01
+      </td>
+      <td>
+       Director : John McTiernan
+      </td>
+      <td>
+       Cast : Bruce Willis, Alan Rickman, Bonnie Bedelia, Reginald VelJohnson
+      </td>
+      <td>
+       Summary : A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Kill Bill: Vol. 1
+      </td>
+      <td>
+       Year : 2003
+      </td>
+      <td>
+       Run time : 111
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1163732
+      </td>
+      <td>
+       Revenue USD : 70.1
+      </td>
+      <td>
+       Director : Quentin Tarantino
+      </td>
+      <td>
+       Cast : Uma Thurman, David Carradine, Daryl Hannah, Michael Madsen
+      </td>
+      <td>
+       Summary : After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 1917
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 119
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 646636
+      </td>
+      <td>
+       Revenue USD : 159.23
+      </td>
+      <td>
+       Director : Sam Mendes
+      </td>
+      <td>
+       Cast : Dean-Charles Chapman, George MacKay, Daniel Mays, Colin Firth
+      </td>
+      <td>
+       Summary : April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : V for Vendetta
+      </td>
+      <td>
+       Year : 2005
+      </td>
+      <td>
+       Run time : 132
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1158190
+      </td>
+      <td>
+       Revenue USD : 70.51
+      </td>
+      <td>
+       Director : James McTeigue
+      </td>
+      <td>
+       Cast : Hugo Weaving, Natalie Portman, Rupert Graves, Stephen Rea
+      </td>
+      <td>
+       Summary : In a future British dystopian society, a shadowy freedom fighter, known only by the alias of "V", plots to overthrow the tyrannical government - with the help of a young woman.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Indiana Jones and the Last Crusade
+      </td>
+      <td>
+       Year : 1989
+      </td>
+      <td>
+       Run time : 127
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 794632
+      </td>
+      <td>
+       Revenue USD : 197.17
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Harrison Ford, Sean Connery, Alison Doody, Denholm Elliott
+      </td>
+      <td>
+       Summary : In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Ran
+      </td>
+      <td>
+       Year : 1985
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 132621
+      </td>
+      <td>
+       Revenue USD : 4.14
+      </td>
+      <td>
+       Director : Akira Kurosawa
+      </td>
+      <td>
+       Cast : Tatsuya Nakadai, Akira Terao, Jinpachi Nezu, Daisuke Ryû
+      </td>
+      <td>
+       Summary : In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Gangs of Wasseypur
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 321
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 101235
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Anurag Kashyap
+      </td>
+      <td>
+       Cast : Manoj Bajpayee, Nawazuddin Siddiqui, Tigmanshu Dhulia, Richa Chadha
+      </td>
+      <td>
+       Summary : A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, and ignites a deadly blood feud spanning three generations.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train
+      </td>
+      <td>
+       Year : 2020
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 68633
+      </td>
+      <td>
+       Revenue USD : 47.7
+      </td>
+      <td>
+       Director : Haruo Sotozaki
+      </td>
+      <td>
+       Cast : Natsuki Hanae, Akari Kitô, Yoshitsugu Matsuoka, Hiro Shimono
+      </td>
+      <td>
+       Summary : After his family was brutally murdered and his sister turned into a demon, Tanjiro Kamado's journey as a demon slayer began. Tanjiro and his comrades embark on a new mission aboard the Mugen Train, on track to despair.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Yojimbo
+      </td>
+      <td>
+       Year : 1961
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 128490
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Akira Kurosawa
+      </td>
+      <td>
+       Cast : Toshirô Mifune, Eijirô Tôno, Tatsuya Nakadai, Yôko Tsukasa
+      </td>
+      <td>
+       Summary : A crafty ronin comes to a town divided by two criminal gangs and decides to play them against each other to free the town.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Vikram Vedha
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 147
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 49265
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Gayatri, Pushkar, Gowtham Selvaraj
+      </td>
+      <td>
+       Cast : Madhavan, Vijay Sethupathi, Shraddha Srinath, Kathir
+      </td>
+      <td>
+       Summary : Vikram, a no-nonsense police officer, accompanied by Simon, his partner, is on the hunt to capture Vedha, a smuggler and a murderer. Vedha tries to change Vikram's life, which leads to a conflict.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Uri: The Surgical Strike
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 138
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 69532
+      </td>
+      <td>
+       Revenue USD : 4.19
+      </td>
+      <td>
+       Director : Aditya Dhar
+      </td>
+      <td>
+       Cast : Vicky Kaushal, Paresh Rawal, Mohit Raina, Yami Gautam
+      </td>
+      <td>
+       Summary : Indian army special forces execute a covert operation, avenging the killing of fellow army men at their base by a terrorist group.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : K.G.F: Chapter 1
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 154
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 94631
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Prashanth Neel
+      </td>
+      <td>
+       Cast : Yash, Srinidhi Shetty, Ramachandra Raju, Archana Jois
+      </td>
+      <td>
+       Summary : In the 1970s, a gangster named Rocky goes undercover as a slave to assassinate the owner of a notorious gold mine known as the K.G.F.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>

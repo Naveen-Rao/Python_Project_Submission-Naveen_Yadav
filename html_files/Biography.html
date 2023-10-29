@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   html {
+    min-height: 100%;
+     }
+    
+
+body {
+        background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80); /* The image used for background*/
+        background-repeat: repeat; /* Do not repeat the image */
+        background-position: left; /* Center the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+        font-family: 'Syne', sans-serif; 
+        }
+    
+.button {
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button1 {border-radius: 10px;width: 100px; height: 40px;}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #FFFFFF; /* Green */
+  color: black;
+}
+
+.centered { margin: 5%; width: 95%; align:center; }
+.rwd-table { width: 95%;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  
+   }
+
+tr {
+    
+    border-top: 2px solid #ddd;
+    padding: 20px
+  }
+
+ th,tr, td {
+    display: block; 
+    }
+  </style>
+ </head>
+ <body>
+  <h2 style="font-family: sans-serif;">
+   <button class="button button1" onclick="location.href = 'welcome.html';">
+    Back
+   </button>
+  </h2>
+  <div class="centered">
+   <table class="rwd-table">
+    <tbody style="text-align: left;">
+     <tr>
+      <td>
+       Title : Schindler's List
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 195
+      </td>
+      <td>
+       IMDB rating : 9.0
+      </td>
+      <td>
+       Votes : 1414098
+      </td>
+      <td>
+       Revenue USD : 96.9
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall
+      </td>
+      <td>
+       Summary : In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Goodfellas
+      </td>
+      <td>
+       Year : 1990
+      </td>
+      <td>
+       Run time : 145
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 1221601
+      </td>
+      <td>
+       Revenue USD : 46.84
+      </td>
+      <td>
+       Director : Martin Scorsese
+      </td>
+      <td>
+       Cast : Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco
+      </td>
+      <td>
+       Summary : The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Rocketry: The Nambi Effect
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 157
+      </td>
+      <td>
+       IMDB rating : 8.7
+      </td>
+      <td>
+       Votes : 55859
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Madhavan
+      </td>
+      <td>
+       Cast : Madhavan, Simran, Rajit Kapoor, Ravi Raghavendra
+      </td>
+      <td>
+       Summary : Based on the life of Indian Space Research Organization scientist Nambi Narayanan, who was framed for being a spy and arrested in 1994. Though free, he continues to fight for justice against the officials who falsely implicated him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Oppenheimer
+      </td>
+      <td>
+       Year : 2023
+      </td>
+      <td>
+       Run time : 180
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 468997
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Christopher Nolan
+      </td>
+      <td>
+       Cast : Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.
+      </td>
+      <td>
+       Summary : The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Intouchables
+      </td>
+      <td>
+       Year : 2011
+      </td>
+      <td>
+       Run time : 112
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 903001
+      </td>
+      <td>
+       Revenue USD : 13.18
+      </td>
+      <td>
+       Director : Olivier Nakache, Éric Toledano
+      </td>
+      <td>
+       Cast : François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot
+      </td>
+      <td>
+       Summary : After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Pianist
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 150
+      </td>
+      <td>
+       IMDB rating : 8.5
+      </td>
+      <td>
+       Votes : 883372
+      </td>
+      <td>
+       Revenue USD : 32.57
+      </td>
+      <td>
+       Director : Roman Polanski
+      </td>
+      <td>
+       Cast : Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox
+      </td>
+      <td>
+       Summary : A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Amadeus
+      </td>
+      <td>
+       Year : 1984
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 418911
+      </td>
+      <td>
+       Revenue USD : 51.97
+      </td>
+      <td>
+       Director : Milos Forman
+      </td>
+      <td>
+       Cast : F. Murray Abraham, Tom Hulce, Elizabeth Berridge, Roy Dotrice
+      </td>
+      <td>
+       Summary : The life, success and troubles of Wolfgang Amadeus Mozart, as told by Antonio Salieri, the contemporaneous composer who was deeply jealous of Mozart's talent and claimed to have murdered him.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Sardar Udham
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 164
+      </td>
+      <td>
+       IMDB rating : 8.4
+      </td>
+      <td>
+       Votes : 45462
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Shoojit Sircar
+      </td>
+      <td>
+       Cast : Vicky Kaushal, Shaun Scott, Stephen Hogan, Amol Parashar
+      </td>
+      <td>
+       Summary : A biopic detailing the 2 decades that Punjabi Sikh revolutionary, Udham Singh, spent planning the assassination of the man responsible for the Jallianwala Bagh massacre.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Braveheart
+      </td>
+      <td>
+       Year : 1995
+      </td>
+      <td>
+       Run time : 178
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 1071968
+      </td>
+      <td>
+       Revenue USD : 75.6
+      </td>
+      <td>
+       Director : Mel Gibson
+      </td>
+      <td>
+       Cast : Mel Gibson, Sophie Marceau, Patrick McGoohan, Angus Macfadyen
+      </td>
+      <td>
+       Summary : Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hamilton
+      </td>
+      <td>
+       Year : 2020
+      </td>
+      <td>
+       Run time : 160
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 107262
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Thomas Kail
+      </td>
+      <td>
+       Cast : Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr., Renée Elise Goldsberry
+      </td>
+      <td>
+       Summary : The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Lawrence of Arabia
+      </td>
+      <td>
+       Year : 1962
+      </td>
+      <td>
+       Run time : 218
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 306967
+      </td>
+      <td>
+       Revenue USD : 44.82
+      </td>
+      <td>
+       Director : David Lean
+      </td>
+      <td>
+       Cast : Peter O'Toole, Alec Guinness, Anthony Quinn, Jack Hawkins
+      </td>
+      <td>
+       Summary : The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dangal
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 161
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 202932
+      </td>
+      <td>
+       Revenue USD : 12.39
+      </td>
+      <td>
+       Director : Nitesh Tiwari
+      </td>
+      <td>
+       Cast : Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh, Sanya Malhotra
+      </td>
+      <td>
+       Summary : Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Shershaah
+      </td>
+      <td>
+       Year : 2021
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 126897
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Vishnuvardhan
+      </td>
+      <td>
+       Cast : Sidharth Malhotra, Kiara Advani, Shiv Panditt, Pranay Pachauri
+      </td>
+      <td>
+       Summary : Shershaah is the story of PVC awardee Indian soldier Capt. Vikram Batra, whose bravery and unflinching courage in chasing the Pakistani soldiers out of Indian territory contributed immensely in India finally winning the Kargil War in 1999.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Ayla: The Daughter of War
+      </td>
+      <td>
+       Year : 2017
+      </td>
+      <td>
+       Run time : 125
+      </td>
+      <td>
+       IMDB rating : 8.3
+      </td>
+      <td>
+       Votes : 42588
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Can Ulkay
+      </td>
+      <td>
+       Cast : Çetin Tekindor, Ismail Hacioglu, Kyung-jin Lee, Kim Seol
+      </td>
+      <td>
+       Summary : Sergeant Süleyman finds a little girl on a battlefield during the Korean War. He takes her and names her Ayla. Fifteen months later, Süleyman's brigade is told they will be returning to Turkey, and he is reluctant to leave her behind.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Wolf of Wall Street
+      </td>
+      <td>
+       Year : 2013
+      </td>
+      <td>
+       Run time : 180
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 1520773
+      </td>
+      <td>
+       Revenue USD : 116.9
+      </td>
+      <td>
+       Director : Martin Scorsese
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey
+      </td>
+      <td>
+       Summary : Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : A Beautiful Mind
+      </td>
+      <td>
+       Year : 2001
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 966622
+      </td>
+      <td>
+       Revenue USD : 170.74
+      </td>
+      <td>
+       Director : Ron Howard
+      </td>
+      <td>
+       Cast : Russell Crowe, Ed Harris, Jennifer Connelly, Christopher Plummer
+      </td>
+      <td>
+       Summary : After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Green Book
+      </td>
+      <td>
+       Year : 2018
+      </td>
+      <td>
+       Run time : 130
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 539621
+      </td>
+      <td>
+       Revenue USD : 85.08
+      </td>
+      <td>
+       Director : Peter Farrelly
+      </td>
+      <td>
+       Cast : Viggo Mortensen, Mahershala Ali, Linda Cardellini, Sebastian Maniscalco
+      </td>
+      <td>
+       Summary : A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Downfall
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 156
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 368285
+      </td>
+      <td>
+       Revenue USD : 5.51
+      </td>
+      <td>
+       Director : Oliver Hirschbiegel
+      </td>
+      <td>
+       Cast : Bruno Ganz, Alexandra Maria Lara, Ulrich Matthes, Juliane Köhler
+      </td>
+      <td>
+       Summary : Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator's final days in his Berlin bunker at the end of WWII.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Elephant Man
+      </td>
+      <td>
+       Year : 1980
+      </td>
+      <td>
+       Run time : 124
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 252955
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : David Lynch
+      </td>
+      <td>
+       Cast : Anthony Hopkins, John Hurt, Anne Bancroft, John Gielgud
+      </td>
+      <td>
+       Summary : A Victorian surgeon rescues a heavily disfigured man who is mistreated while scraping a living as a side-show freak. Behind his monstrous façade, there is revealed a person of kindness, intelligence and sophistication.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dersu Uzala
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 142
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 32618
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Akira Kurosawa
+      </td>
+      <td>
+       Cast : Maksim Munzuk, Yuriy Solomin, Mikhail Bychkov, Vladimir Khrulyov
+      </td>
+      <td>
+       Summary : The Russian army sends an explorer on an expedition to the snowy Siberian wilderness where he makes friends with a seasoned local hunter.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Bhaag Milkha Bhaag
+      </td>
+      <td>
+       Year : 2013
+      </td>
+      <td>
+       Run time : 186
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 70928
+      </td>
+      <td>
+       Revenue USD : 1.63
+      </td>
+      <td>
+       Director : Rakeysh Omprakash Mehra
+      </td>
+      <td>
+       Cast : Farhan Akhtar, Deepak Singh Rawat, Japtej Singh, Divya Dutta
+      </td>
+      <td>
+       Summary : The truth behind the ascension of Milkha Singh, who was scarred by of the India-Pakistan partition.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Paan Singh Tomar
+      </td>
+      <td>
+       Year : 2012
+      </td>
+      <td>
+       Run time : 135
+      </td>
+      <td>
+       IMDB rating : 8.2
+      </td>
+      <td>
+       Votes : 37435
+      </td>
+      <td>
+       Revenue USD : 0.04
+      </td>
+      <td>
+       Director : Tigmanshu Dhulia
+      </td>
+      <td>
+       Cast : Irrfan Khan, Mahie Gill, Rajesh Abhay, Hemendra Dandotiya
+      </td>
+      <td>
+       Summary : The story of Paan Singh Tomar, an Indian athlete and seven-time national steeplechase champion who becomes one of the most feared dacoits in Chambal Valley after his retirement.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hacksaw Ridge
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 139
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 571649
+      </td>
+      <td>
+       Revenue USD : 67.21
+      </td>
+      <td>
+       Director : Mel Gibson
+      </td>
+      <td>
+       Cast : Andrew Garfield, Sam Worthington, Luke Bracey, Teresa Palmer
+      </td>
+      <td>
+       Summary : World War II American Army Medic Desmond T. Doss, serving during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Catch Me If You Can
+      </td>
+      <td>
+       Year : 2002
+      </td>
+      <td>
+       Run time : 141
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 1055131
+      </td>
+      <td>
+       Revenue USD : 164.62
+      </td>
+      <td>
+       Director : Steven Spielberg
+      </td>
+      <td>
+       Cast : Leonardo DiCaprio, Tom Hanks, Christopher Walken, Martin Sheen
+      </td>
+      <td>
+       Summary : Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Ford v Ferrari
+      </td>
+      <td>
+       Year : 2019
+      </td>
+      <td>
+       Run time : 152
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 441351
+      </td>
+      <td>
+       Revenue USD : 117.62
+      </td>
+      <td>
+       Director : James Mangold
+      </td>
+      <td>
+       Cast : Matt Damon, Christian Bale, Jon Bernthal, Caitríona Balfe
+      </td>
+      <td>
+       Summary : American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Into the Wild
+      </td>
+      <td>
+       Year : 2007
+      </td>
+      <td>
+       Run time : 148
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 645453
+      </td>
+      <td>
+       Revenue USD : 18.35
+      </td>
+      <td>
+       Director : Sean Penn
+      </td>
+      <td>
+       Cast : Emile Hirsch, Vince Vaughn, Catherine Keener, Marcia Gay Harden
+      </td>
+      <td>
+       Summary : After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Raging Bull
+      </td>
+      <td>
+       Year : 1980
+      </td>
+      <td>
+       Run time : 129
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 371059
+      </td>
+      <td>
+       Revenue USD : 23.38
+      </td>
+      <td>
+       Director : Martin Scorsese
+      </td>
+      <td>
+       Cast : Robert De Niro, Cathy Moriarty, Joe Pesci, Frank Vincent
+      </td>
+      <td>
+       Summary : The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Sound of Music
+      </td>
+      <td>
+       Year : 1965
+      </td>
+      <td>
+       Run time : 172
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 250709
+      </td>
+      <td>
+       Revenue USD : 163.21
+      </td>
+      <td>
+       Director : Robert Wise
+      </td>
+      <td>
+       Cast : Julie Andrews, Christopher Plummer, Eleanor Parker, Richard Haydn
+      </td>
+      <td>
+       Summary : A young novice is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : 12 Years a Slave
+      </td>
+      <td>
+       Year : 2013
+      </td>
+      <td>
+       Run time : 134
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 727506
+      </td>
+      <td>
+       Revenue USD : 56.67
+      </td>
+      <td>
+       Director : Steve McQueen
+      </td>
+      <td>
+       Cast : Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender, Brad Pitt
+      </td>
+      <td>
+       Summary : In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Spotlight
+      </td>
+      <td>
+       Year : 2015
+      </td>
+      <td>
+       Run time : 129
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 491408
+      </td>
+      <td>
+       Revenue USD : 45.06
+      </td>
+      <td>
+       Director : Tom McCarthy
+      </td>
+      <td>
+       Cast : Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber
+      </td>
+      <td>
+       Summary : The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Rush
+      </td>
+      <td>
+       Year : 2013
+      </td>
+      <td>
+       Run time : 123
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 501707
+      </td>
+      <td>
+       Revenue USD : 26.95
+      </td>
+      <td>
+       Director : Ron Howard
+      </td>
+      <td>
+       Cast : Daniel Brühl, Chris Hemsworth, Olivia Wilde, Alexandra Maria Lara
+      </td>
+      <td>
+       Summary : The merciless 1970s rivalry between Formula One rivals James Hunt and Niki Lauda.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hachi: A Dog's Tale
+      </td>
+      <td>
+       Year : 2009
+      </td>
+      <td>
+       Run time : 93
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 302392
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Lasse Hallström
+      </td>
+      <td>
+       Cast : Richard Gere, Joan Allen, Cary-Hiroyuki Tagawa, Sarah Roemer
+      </td>
+      <td>
+       Summary : A college professor bonds with an abandoned dog he takes into his home.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : In the Name of the Father
+      </td>
+      <td>
+       Year : 1993
+      </td>
+      <td>
+       Run time : 133
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 183300
+      </td>
+      <td>
+       Revenue USD : 25.01
+      </td>
+      <td>
+       Director : Jim Sheridan
+      </td>
+      <td>
+       Cast : Daniel Day-Lewis, Pete Postlethwaite, Alison Crosbie, Philip King
+      </td>
+      <td>
+       Summary : A man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. An English lawyer fights to free them.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Hotel Rwanda
+      </td>
+      <td>
+       Year : 2004
+      </td>
+      <td>
+       Run time : 121
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 366732
+      </td>
+      <td>
+       Revenue USD : 23.53
+      </td>
+      <td>
+       Director : Terry George
+      </td>
+      <td>
+       Cast : Don Cheadle, Sophie Okonedo, Joaquin Phoenix, Xolani Mali
+      </td>
+      <td>
+       Summary : Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Message
+      </td>
+      <td>
+       Year : 1976
+      </td>
+      <td>
+       Run time : 177
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 49816
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Moustapha Akkad
+      </td>
+      <td>
+       Cast : Anthony Quinn, Irene Papas, Michael Ansara, Johnny Sekka
+      </td>
+      <td>
+       Summary : This epic historical drama chronicles the life and times of Prophet Muhammad and serves as an introduction to early Islamic history.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Andrei Rublev
+      </td>
+      <td>
+       Year : 1966
+      </td>
+      <td>
+       Run time : 205
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 55999
+      </td>
+      <td>
+       Revenue USD : 0.1
+      </td>
+      <td>
+       Director : Andrei Tarkovsky
+      </td>
+      <td>
+       Cast : Anatoliy Solonitsyn, Ivan Lapikov, Nikolay Grinko, Nikolay Sergeev
+      </td>
+      <td>
+       Summary : The life, times and afflictions of the fifteenth-century Russian iconographer St. Andrei Rublev.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Inherit the Wind
+      </td>
+      <td>
+       Year : 1960
+      </td>
+      <td>
+       Run time : 128
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 32065
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Stanley Kramer
+      </td>
+      <td>
+       Cast : Spencer Tracy, Fredric March, Gene Kelly, Dick York
+      </td>
+      <td>
+       Summary : Based on a real-life case in 1925, two great lawyers argue the case for and against a Tennessee science teacher accused of the crime of teaching evolution.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Passion of Joan of Arc
+      </td>
+      <td>
+       Year : 1928
+      </td>
+      <td>
+       Run time : 114
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 58879
+      </td>
+      <td>
+       Revenue USD : 0.02
+      </td>
+      <td>
+       Director : Carl Theodor Dreyer
+      </td>
+      <td>
+       Cast : Maria Falconetti, Eugene Silvain, André Berley, Maurice Schutz
+      </td>
+      <td>
+       Summary : In 1431, Jeanne d'Arc is placed on trial on charges of heresy. The ecclesiastical jurists attempt to force Jeanne to recant her claims of holy visions.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Major
+      </td>
+      <td>
+       Year : 2022
+      </td>
+      <td>
+       Run time : 150
+      </td>
+      <td>
+       IMDB rating : 8.1
+      </td>
+      <td>
+       Votes : 31260
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Sashi Kiran Tikka
+      </td>
+      <td>
+       Cast : Adivi Sesh, Prakash Raj, Revathi, Saiee Manjrekar
+      </td>
+      <td>
+       Summary : Based on the life of Major Sandeep Unnikrishnan, who was martyred in action during the November 2008 Mumbai attacks and was consequently awarded the Ashoka Chakra, India's highest peacetime gallantry award, on 26 January 2009.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Imitation Game
+      </td>
+      <td>
+       Year : 2014
+      </td>
+      <td>
+       Run time : 114
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 806256
+      </td>
+      <td>
+       Revenue USD : 91.13
+      </td>
+      <td>
+       Director : Morten Tyldum
+      </td>
+      <td>
+       Cast : Benedict Cumberbatch, Keira Knightley, Matthew Goode, Allen Leech
+      </td>
+      <td>
+       Summary : During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Pursuit of Happyness
+      </td>
+      <td>
+       Year : 2006
+      </td>
+      <td>
+       Run time : 117
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 545176
+      </td>
+      <td>
+       Revenue USD : 163.57
+      </td>
+      <td>
+       Director : Gabriele Muccino
+      </td>
+      <td>
+       Cast : Will Smith, Thandiwe Newton, Jaden Smith, Brian Howe
+      </td>
+      <td>
+       Summary : A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Cinderella Man
+      </td>
+      <td>
+       Year : 2005
+      </td>
+      <td>
+       Run time : 144
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 194886
+      </td>
+      <td>
+       Revenue USD : 61.65
+      </td>
+      <td>
+       Director : Ron Howard
+      </td>
+      <td>
+       Cast : Russell Crowe, Renée Zellweger, Craig Bierko, Paul Giamatti
+      </td>
+      <td>
+       Summary : The story of James J. Braddock, a supposedly washed-up boxer who came back to challenge for the heavyweight championship of the world.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The King's Speech
+      </td>
+      <td>
+       Year : 2010
+      </td>
+      <td>
+       Run time : 118
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 699105
+      </td>
+      <td>
+       Revenue USD : 138.8
+      </td>
+      <td>
+       Director : Tom Hooper
+      </td>
+      <td>
+       Cast : Colin Firth, Geoffrey Rush, Helena Bonham Carter, Derek Jacobi
+      </td>
+      <td>
+       Summary : The story of King George VI, his unexpected ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Dog Day Afternoon
+      </td>
+      <td>
+       Year : 1975
+      </td>
+      <td>
+       Run time : 125
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 268564
+      </td>
+      <td>
+       Revenue USD : 50.0
+      </td>
+      <td>
+       Director : Sidney Lumet
+      </td>
+      <td>
+       Cast : Al Pacino, John Cazale, Penelope Allen, Sully Boyar
+      </td>
+      <td>
+       Summary : Three amateur bank robbers plan to hold up a bank. A nice simple robbery: Walk in, take the money, and run. Unfortunately, the supposedly uncomplicated heist suddenly becomes a bizarre nightmare as everything that could go wrong does.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Lion
+      </td>
+      <td>
+       Year : 2016
+      </td>
+      <td>
+       Run time : 118
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 246183
+      </td>
+      <td>
+       Revenue USD : 51.74
+      </td>
+      <td>
+       Director : Garth Davis
+      </td>
+      <td>
+       Cast : Dev Patel, Nicole Kidman, Rooney Mara, Sunny Pawar
+      </td>
+      <td>
+       Summary : A five-year-old Indian boy is adopted by an Australian couple after getting lost hundreds of kilometers from home. 25 years later, he sets out to find his lost family.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Butch Cassidy and the Sundance Kid
+      </td>
+      <td>
+       Year : 1969
+      </td>
+      <td>
+       Run time : 110
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 223494
+      </td>
+      <td>
+       Revenue USD : 102.31
+      </td>
+      <td>
+       Director : George Roy Hill
+      </td>
+      <td>
+       Cast : Paul Newman, Robert Redford, Katharine Ross, Strother Martin
+      </td>
+      <td>
+       Summary : In 1890s Wyoming, Butch Cassidy and The Sundance Kid lead a band of outlaws. When a train robbery goes wrong, they find themselves on the run with a posse hard on their heels. After considering their options, they escape to South America.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Papillon
+      </td>
+      <td>
+       Year : 1973
+      </td>
+      <td>
+       Run time : 151
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 136151
+      </td>
+      <td>
+       Revenue USD : 53.27
+      </td>
+      <td>
+       Director : Franklin J. Schaffner
+      </td>
+      <td>
+       Cast : Steve McQueen, Dustin Hoffman, Victor Jory, Don Gordon
+      </td>
+      <td>
+       Summary : A French convict in the 1930s befriends a fellow criminal as the two of them begin serving their sentence in the South American penal colony on Devil's Island, which inspires the man to plot his escape.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Ip Man
+      </td>
+      <td>
+       Year : 2008
+      </td>
+      <td>
+       Run time : 106
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 230941
+      </td>
+      <td>
+       Revenue USD :
+      </td>
+      <td>
+       Director : Wilson Yip
+      </td>
+      <td>
+       Cast : Donnie Yen, Simon Yam, Siu-Wong Fan, Ka-Tung Lam
+      </td>
+      <td>
+       Summary : During the Japanese invasion of China, a wealthy martial artist is forced to leave his home when his city is occupied. With little means of providing for themselves, Ip Man and the remaining members of the city must find a way to survive.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : Gandhi
+      </td>
+      <td>
+       Year : 1982
+      </td>
+      <td>
+       Run time : 191
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 237897
+      </td>
+      <td>
+       Revenue USD : 52.77
+      </td>
+      <td>
+       Director : Richard Attenborough
+      </td>
+      <td>
+       Cast : Ben Kingsley, John Gielgud, Rohini Hattangadi, Roshan Seth
+      </td>
+      <td>
+       Summary : The life of the lawyer who became the famed leader of the Indian revolts against the British rule through his philosophy of nonviolent protest.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       Title : The Straight Story
+      </td>
+      <td>
+       Year : 1999
+      </td>
+      <td>
+       Run time : 112
+      </td>
+      <td>
+       IMDB rating : 8.0
+      </td>
+      <td>
+       Votes : 95054
+      </td>
+      <td>
+       Revenue USD : 6.2
+      </td>
+      <td>
+       Director : David Lynch
+      </td>
+      <td>
+       Cast : Richard Farnsworth, Sissy Spacek, Jane Galloway Heitz, Joseph A. Carpenter
+      </td>
+      <td>
+       Summary : An old man makes a long journey by lawnmower to mend his relationship with an ill brother.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+  </div>
+ </body>
+</html>
